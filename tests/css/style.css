@@ -38,7 +38,6 @@ html {
 body {
 	font-family: "Poppins", sans-serif;
 	margin: 3rem 0 0 0;
-	font-size: 0.938rem;
 }
 
 /* REUSABLE CSS CLASSES ============================ */
@@ -72,26 +71,11 @@ body {
 	background-size: cover;
 }
 
-
-.member{
+.band, .member, .merch, .founding{
 	background: var(--background-light);
 }
 
-.albums{
-	background-color: var(--accent);
-}
-
-.merch{
-background-color: var(--background-light);
-}
-.tour{
-	background-color: var(--accent);
-}
-
-.founding{
-	background-color: var(--background-light);
-}
-.members{
+.albums, .tour, .members{
 	background-color: var(--accent);
 }
 
@@ -233,7 +217,7 @@ background-color: var(--background-light);
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	padding: 10rem 0;
+	/* padding: 10rem 0; */
 	/* margin: 0px 0px 0px 0px; */
 }
 
@@ -350,7 +334,7 @@ background-color: var(--background-light);
 /* =========== Footer Section Start ========== */
 /* =========================================== */
 footer{
-	padding: 250px;
+	padding: 100px;
 	background-color: var(--background-dark);
 }
 /* =========== Footer Section End ========== */
