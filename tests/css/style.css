@@ -258,8 +258,8 @@ body {
 
 /* Increase the size of the cards when you hover over them */
 .member-cards:hover {
-	transform: scale(1.05);
-	transition: .8s ease;
+	transform: scale(1.035);
+	transition: 0.5s ease;
 }
 
 /* sets the height to zero so that the overlay doesn't show up */
