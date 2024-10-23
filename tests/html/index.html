@@ -8,7 +8,9 @@
   <title>Responsive Header NavBar</title>
 
   <!-- CSS LINK =============================== -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
   <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="../css/swiper.css">
 
   <!-- BOXICONS =================================== -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" />
@@ -53,53 +55,81 @@
       </div>
     </section>
 
-    <section class="section band" id="band">
-      <div class="member" id="member">
-        <h1>Our Members</h1>
-        <div class="member-wrapper">
+    <div class="member" id="member">
+      <h1>Our Members</h1>
+      <div class="member-wrapper">
+        <!-- https://www.youtube.com/watch?v=l--CeyjFsms -->
 
-          <div class="member-cards">
-            <img src="../res/Aidien.jpeg" alt="" />
-            <div class="overlay">
-              <h2>Aidien Gooden</h2>
-              <p>Lead Vocalist</p>
-              <a href="../html/about.html">Learn More</a>
-            </div>
+        <div class="member-cards">
+          <img src="../res/Aidien.jpeg" alt="" />
+          <div class="overlay">
+            <h2>Aidien Gooden</h2>
+            <p>Lead Vocalist</p>
+            <a href="../html/about.html">Learn More</a>
           </div>
+        </div>
 
-          <div class="member-cards">
-            <img src="../res/Sean.jpeg" alt="" />
-            <div class="overlay">
-              <h2>Sean Kalb</h2>
-              <p>Lead Guitarist</p>
-              <a href="../html/about.html">Learn More</a>
-            </div>
+        <div class="member-cards">
+          <img src="../res/Sean.jpeg" alt="" />
+          <div class="overlay">
+            <h2>Sean Kalb</h2>
+            <p>Lead Guitarist</p>
+            <a href="../html/about.html">Learn More</a>
           </div>
+        </div>
 
-          <div class="member-cards">
-            <img src="../res/Jabari.jpeg" alt="" />
-            <div class="overlay">
-              <h2>Jabari Hill</h2>
-              <p>Drummer</p>
-              <a href="../html/about.html">Learn More</a>
-            </div>
+        <div class="member-cards">
+          <img src="../res/Jabari.jpeg" alt="" />
+          <div class="overlay">
+            <h2>Jabari Hill</h2>
+            <p>Drummer</p>
+            <a href="../html/about.html">Learn More</a>
           </div>
+        </div>
 
-          <div class="member-cards">
-            <img src="../res/Gabe.jpeg" alt="" />
-            <div class="overlay">
-              <h2>Gabe Zeigler</h2>
-              <p>Bass Guitarist</p>
-              <!-- write an html attributse that contains index-->
-              <a href="../html/about.html">Learn More</a>
-            </div>
+        <div class="member-cards">
+          <img src="../res/Gabe.jpeg" alt="" />
+          <div class="overlay">
+            <h2>Gabe Zeigler</h2>
+            <p>Bass Guitarist</p>
+            <!-- write an html attributse that contains index-->
+            <a href="../html/about.html">Learn More</a>
           </div>
         </div>
       </div>
-    </section>
+    </div>
 
     <section class="section albums" id="albums">
       <h2 class="section-title">Albums</h2>
+      <!-- Swiper -->
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="../res/Gabe.jpeg" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="../res/Gabe.jpeg" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="../res/Gabe.jpeg" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="../res/Gabe.jpeg" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="../res/Gabe.jpeg" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="../res/Gabe.jpeg" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="../res/Gabe.jpeg" alt="">
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
     </section>
 
     <section class="section merch" id="merch">
@@ -112,6 +142,24 @@
   </main>
   <footer>
     <script src="../js/index.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 3,
+        spaceBetween: 20,
+        loop: false,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
   </footer>
 </body>
 

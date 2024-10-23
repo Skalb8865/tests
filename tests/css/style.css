@@ -37,20 +37,21 @@ html {
 
 body {
 	font-family: "Poppins", sans-serif;
-	margin: 3rem 0 0 0;
+	justify-content: center;
+	align-items: center;
 }
 
 /* REUSABLE CSS CLASSES ============================ */
-.section {
+/* .section {
 	padding: 4.5rem 0 2rem;
-}
+} */
 
 .section-title {
 	font-size: 1.5rem;
 	text-align: center;
 	margin-bottom: 1.5rem;
 	font-weight: 600;
-}
+} 
 
 .home,
 .band,
@@ -80,10 +81,10 @@ body {
 }
 
 /* LAYOUT =============================== */
-.container {
+/* .container {
 	max-width: 968px;
 	margin: 0px 1.5rem;
-}
+} */
 
 
 
@@ -213,12 +214,14 @@ body {
 /* =========== Member Section Start =========== */
 /* ============================================ */
 .member {
+	padding: 100px 0px 100px 0px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	/* padding: 10rem 0; */
 	/* margin: 0px 0px 0px 0px; */
+	/* background-color: var(--background-light); */
 }
 
 .member h1 {
@@ -247,6 +250,7 @@ body {
 	height: 425px;
 	margin: 10px;
 	transition: 1.15s ease;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.25), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
 }
 
 .member-cards img {
@@ -260,6 +264,7 @@ body {
 .member-cards:hover {
 	transform: scale(1.035);
 	transition: 0.5s ease;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.85);
 }
 
 /* sets the height to zero so that the overlay doesn't show up */
@@ -301,7 +306,7 @@ body {
 }
 
 .member-cards .overlay a {
-	margin: 10px 0px 180px 0px;
+	margin: 10px 0px 65px 0px;
 	color: var(--font-dark);
 	text-decoration: none;
 	font-size: 14px;
@@ -434,8 +439,8 @@ footer{
 }
 
 @media screen and (min-width: 968px) {
-	.container {
+	/* .container {
 		margin-left: auto;
 		margin-right: auto;
-	}
+	} */
 }
