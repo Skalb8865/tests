@@ -52,6 +52,7 @@ body {
 	text-align: center;
 	margin-bottom: 1.5rem;
 	font-weight: 600;
+	fill-rule: evenodd;
 } 
 
 .home,
