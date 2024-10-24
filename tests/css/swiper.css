@@ -1,17 +1,53 @@
+:root {
+	--basically-black: #0a0a0a;
 
+	--primary: #907dda;
+	--primary-dark: #615399;
+
+
+	--light-grey: #BDC4D0;
+	--grey: grey;
+	--dark-grey: #555756;
+
+	--background-light: #F3F4F8;
+	--background-dark: #2F3032;
+	--accent: #e5e4ea;
+
+
+	--font-lightest: #fff;
+	--font-light: #abaab4;
+	--font-dark: #333;
+	--font-darkest: #0a0a0a;
+
+}
+
+/* Swiper Container */
 .swiper {
     width: 100%;
-    height: 35%;
+    height: 50%;
   }
 
+ 
   .swiper-slide {
     text-align: center;
     font-size: 18px;
     background: #fff;
     display: flex;
+    /* margin-left: 25px;
+    margin-right: 25px; */
     justify-content: center;
     align-items: center;
     cursor: grab;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.25), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.5s ease;
+  }
+
+
+ /* Increase the size and Increase the shadow on the slides when your hover over one  */
+  .swiper-slide:hover{
+    transform: scale(1.025);
+    transition: 0.5s ease;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
   }
 
   .swiper-slide img {
@@ -21,7 +57,25 @@
     object-fit: cover;
   }
 
-  .swiper {
-    margin-left: auto;
-    margin-right: auto;
-  }
+
+  /* Change these to chang the color of arrows and the pagination when you hover over them */
+  .swiper-pagination-bullet-active:hover{
+    background: red;
+    
+   }
+   
+   .swiper-pagination-bullet:hover{
+    background: red;
+   }
+
+   /* Changes the color of the arrows */
+   .swiper-button-next,.swiper-button-prev{
+    color:red
+   }
+
+
+   /* Changes the color of the arrows when you hover over them*/
+   .swiper-button-next:hover, 
+   .swiper-button-prev:hover{
+    color: red;
+   }
