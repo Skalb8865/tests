@@ -58,14 +58,14 @@
   }
 
 
-  /* Change these to chang the color of arrows and the pagination when you hover over them */
+  /* Changes the color of the pagination when you hover over them */
   .swiper-pagination-bullet-active:hover{
     background: red;
     
    }
    
    .swiper-pagination-bullet:hover{
-    background: red;
+    background: purple;
    }
 
    /* Changes the color of the arrows */
