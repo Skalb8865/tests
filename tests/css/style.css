@@ -368,14 +368,11 @@ padding-top: 100px;
 padding-left: 600px;
 font-size: 30px;
 }
-.band-back-main{
 
-}
 .band-h1-main{
 
 }
 .band-members{
-
 
 }
 .band-member-cards{
@@ -400,6 +397,39 @@ font-size: 30px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.85);
 }
 
+.band-member-cards .overlay h2 {
+	font-weight: 800;
+	margin: 50% 0px 0px 0px;
+	font-size: 30px;
+	letter-spacing: 2px;
+	color: var(--font-lightest);
+	text-align: center;
+}
+
+.band-member-cards .overlay p {
+	font-weight: 600;
+	margin: 0px 0px 5px 0px;
+	font-size: 14px;
+	letter-spacing: 1px;
+	color: var(--font-light);
+	text-align: center;
+}
+
+.band-member-cards:hover .overlay {
+	height: 100%;
+	transition: 1.25s ease;
+}
+
+.band-member-cards a:hover {
+	transform: scale(1.1);
+	transition: 0.45s ease;
+	background-color: var(--primary-dark);
+	color: var(--font-lightest);
+}
+/* affects the top margin for band memeber card*/
+.band-member-top{
+margin-top: 3rem;
+}
 /* =========== Band Section End ========== */
 /* ========================================= */
 
