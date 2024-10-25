@@ -364,13 +364,15 @@ footer{
 /* =========== Band Section start ========== */
 /* ========================================= */
 .band-main{
-
+padding-top: 100px;
+padding-left: 600px;
+font-size: 30px;
 }
 .band-back-main{
 
 }
 .band-h1-main{
-	
+
 }
 /* =========== Band Section End ========== */
 /* ========================================= */
