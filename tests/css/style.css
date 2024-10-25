@@ -364,20 +364,23 @@ footer{
 /* =========== Band Section start ========== */
 /* ========================================= */
 .band-main{
-background-color: #e5e4ea;
+	background-color: #e5e4ea;
 }
 
 .band-main h1{
-padding-left: 30rem;
-font-size: 50px;
+	padding-left: 30rem;
+	font-size: 50px;
 }
 
 .band-main p{
 	font-size: 15px;
 }
+.back-story{
+	background-color: #2F3032;
+}
 
 .band-members{
-padding-left: 30rem;
+	padding-left: 30rem;
 }
 .band-member-cards{
 	position: relative;
@@ -432,7 +435,7 @@ padding-left: 30rem;
 }
 /* affects the top margin for band memeber card*/
 .band-member-top{
-margin-top: 3rem;
+	margin-top: 3rem;
 }
 /* =========== Band Section End ========== */
 /* ========================================= */
