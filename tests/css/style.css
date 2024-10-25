@@ -379,8 +379,27 @@ font-size: 30px;
 
 }
 .band-member-cards{
-	
+	position: relative;
+	border-radius: 10px;
+	width: 410px;
+	height: 425px;
+	margin: 10px;
+	transition: 1.15s ease;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.25), 0 6px 20px 0 rgba(0, 0, 0, 0.2)
 }
+.band-member-cards img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 10px;
+}
+
+.band-ember-cards:hover {
+	transform: scale(1.035);
+	transition: 0.5s ease;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.85);
+}
+
 /* =========== Band Section End ========== */
 /* ========================================= */
 
