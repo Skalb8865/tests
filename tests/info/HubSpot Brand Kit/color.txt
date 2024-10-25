@@ -1,1 +1,21 @@
-Primary: #121618;Secondary:#29B1B2, #F4F4F9, #E6AA68;
+Primary: #121618;
+Secondary:#29B1B2, #F4F4F9, #E6AA68;
+
+basically-black: #0a0a0a;
+primary: #907dda;
+primary-dark: #615399;
+
+
+light-grey: #BDC4D0;
+grey: grey;
+dark-grey: #555756;
+
+background-light: #F3F4F8;
+background-dark: #2F3032;
+accent: #e5e4ea;
+
+
+font-lightest: #fff;
+font-light: #abaab4;
+font-dark: #333;
+font-darkest: #0a0a0a;

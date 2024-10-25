@@ -364,16 +364,20 @@ footer{
 /* =========== Band Section start ========== */
 /* ========================================= */
 .band-main{
-padding-top: 100px;
-padding-left: 600px;
-font-size: 30px;
+background-color: #e5e4ea;
 }
 
-.band-h1-main{
-
+.band-main h1{
+padding-left: 30rem;
+font-size: 50px;
 }
+
+.band-main p{
+	font-size: 15px;
+}
+
 .band-members{
-
+padding-left: 30rem;
 }
 .band-member-cards{
 	position: relative;
@@ -382,7 +386,7 @@ font-size: 30px;
 	height: 425px;
 	margin: 10px;
 	transition: 1.15s ease;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.25), 0 6px 20px 0 rgba(0, 0, 0, 0.2)
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.25), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
 }
 .band-member-cards img {
 	width: 100%;
