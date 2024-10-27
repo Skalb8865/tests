@@ -26,26 +26,28 @@ navLink.forEach((link) => link.addEventListener("click", linkAction));
 // ACTIVE SECTION LINK ============================
 const sections = document.querySelectorAll("section[id");
 
-function scrollActive() {
-	const scrollY = window.pageYOffset;
+// This causes a ton of errors so I commented it out
 
-	sections.forEach((section) => {
-		const sectionHeight = section.offsetHeight;
-		const sectionTop = section.offsetTop - 50;
-		sectionId = section.getAttribute("id");
+// function scrollActive() {
+// 	const scrollY = window.pageYOffset;
 
-		if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
-			document
-				.querySelector(".main-nav a[href*=" + sectionId + "]")
-				.classList.add("active-link");
-		} else {
-			document
-				.querySelector(".main-nav a[href*=" + sectionId + "]")
-				.classList.remove("active-link");
-		}
-	});
-}
-window.addEventListener("scroll", scrollActive);
+// 	sections.forEach((section) => {
+// 		const sectionHeight = section.offsetHeight;
+// 		const sectionTop = section.offsetTop - 50;
+// 		sectionId = section.getAttribute("id");
+
+// 		if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
+// 			document
+// 				.querySelector(".main-nav a[href*=" + sectionId + "]")
+// 				.classList.add("active-link");
+// 		} else {
+// 			document
+// 				.querySelector(".main-nav a[href*=" + sectionId + "]")
+// 				.classList.remove("active-link");
+// 		}
+// 	});
+// }
+// window.addEventListener("scroll", scrollActive);
 
 // CHANGE THE BACKGROUND ON SCROLL =========================
 function changeHeaderColor() {

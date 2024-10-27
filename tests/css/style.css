@@ -39,7 +39,6 @@ body {
 	font-family: "Poppins", sans-serif;
 	justify-content: center;
 	align-items: center;
-	background-color: var(--accent);
 }
 
 /* REUSABLE CSS CLASSES ============================ */
@@ -75,7 +74,7 @@ body {
 
 .albums{
 	height: 75dvh;
-	margin: 0px 25px 0px 25px;
+	padding: 0px 25px 0px 25px;
 }
 
 .album{
@@ -130,8 +129,9 @@ body {
 }
 
 .logo {
-	width: 150px;
+	width: 175px;
 	height: 150px;
+	padding: 0px 0px 10px 15px;
 }
 
 .nav-item {
@@ -234,7 +234,7 @@ body {
 .member-cards:hover {
 	transform: scale(1.035);
 	transition: 0.5s ease;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.85);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.35), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
 }
 
 /* sets the height to zero so that the overlay doesn't show up */
