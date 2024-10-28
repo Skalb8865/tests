@@ -8,9 +8,8 @@
   <title>Stage Fright</title>
 
   <!-- CSS LINK =============================== -->
-  <link rel="stylesheet" href="../css/swiper-bundle.min.css" />
   <link rel="stylesheet" href="../css/style.css" />
-  <link rel="stylesheet" href="../css/swiper.css">
+  <link rel="stylesheet" href="../css/albums.css">
 
   <!-- BOXICONS =================================== -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" />
@@ -55,113 +54,35 @@
       </div>
     </section>
 
-    <div class="member" id="member">
-      <h1>Our Members</h1>
-      <div class="member-wrapper">
+    <div class="our-albums" id="our-albums">
+      <div class="albums-wrapper">
 
-        <div class="member-cards">
-          <img src="../res/Aidien.jpeg" alt="Aidien" />
-          <div class="overlay">
-            <h2>Aidien Gooden</h2>
-            <p>Lead Vocalist</p>
-            <a href="../html/Band.html">Learn More</a>
-          </div>
+        <div class="albums-cards">
+          <a href="#">
+            <img src="../res/Aidien.jpeg" alt="Aidien" />
+          </a>
         </div>
 
-        <div class="member-cards">
-          <img src="../res/Sean.jpeg" alt="Sean" />
-          <div class="overlay">
-            <h2>Sean Kalb</h2>
-            <p>Lead Guitarist</p>
-            <a href="../html/Band.html">Learn More</a>
-          </div>
+        <div class="albums-cards">
+          <a href="#">
+            <img src="../res/Sean.jpeg" alt="Sean" />
+          </a>
         </div>
 
-        <div class="member-cards">
-          <img src="../res/Jabari.jpeg" alt="Jabari" />
-          <div class="overlay">
-            <h2>Jabari Hill</h2>
-            <p>Drummer</p>
-            <a href="../html/Band.html">Learn More</a>
-          </div>
-        </div>
-
-        <div class="member-cards">
-          <img src="../res/Gabe.jpeg" alt="Gabe" />
-          <div class="overlay">
-            <h2>Gabe Zeigler</h2>
-            <p>Bass Guitarist</p>
-            <!-- write an html attributse that contains index-->
-            <a href="../html/Band.html">Learn More</a>
-          </div>
+        <div class="albums-cards">
+          <a href="#">
+            <img src="../res/Jabari.jpeg" alt="Jabari" />
+          </a>
         </div>
       </div>
     </div>
 
-    <section class="section albums" id="albums">
-      <h2 class="section-title">Albums</h2>
-      <!-- Swiper -->
-      <div class="swiper mySwiper">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide" data-swiper-autoplay="2000">
-            <img src="../res/Gabe.jpeg" alt="">
-          </div>
-          <div class="swiper-slide" data-swiper-autoplay="2000">
-            <img src="../res/Gabe.jpeg" alt="">
-          </div>
-          <div class="swiper-slide" data-swiper-autoplay="2000">
-            <img src="../res/Gabe.jpeg" alt="">
-          </div>
-          <div class="swiper-slide" data-swiper-autoplay="2000">
-            <img src="../res/Gabe.jpeg" alt="">
-          </div>
-          <div class="swiper-slide" data-swiper-autoplay="2000">
-            <img src="../res/Gabe.jpeg" alt="">
-          </div>
-          <div class="swiper-slide" data-swiper-autoplay="2000">
-            <img src="../res/Gabe.jpeg" alt="">
-          </div>
-          <div class="swiper-slide" data-swiper-autoplay="2000">
-            <img src="../res/Gabe.jpeg" alt="">
-          </div>
-        </div>
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-pagination"></div>
-      </div>
-      
-    </section>
-
-    <section class="section merch" id="merch">
-      <h2 class="section-title">Merch</h2>
-    </section>
-
-    <section class="section tour" id="tour">
-      <h2 class="section-title">Tours</h2>
-    </section>
+  
   </main>
   <footer>
 
    <!-- JS LINKS =============================== -->
     <script src="../js/index.js"></script>
-    <!-- Swiper JS -->
-    <script src="../js/swiper-bundle.min.js"></script>
-        <!-- JS =============================== -->
-    <script>
-      var swiper = new Swiper(".mySwiper", {
-        slidesPerView: 3,
-        spaceBetween: 20,
-        loop: false,
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
-        },
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-        },
-      });
-    </script>
   </footer>
 </body>
 
