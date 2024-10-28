@@ -141,6 +141,13 @@ body {
 .nav-open {
 	font-size: 1.2rem;
 	cursor: pointer;
+	padding-right: 15px;
+	transition: color 0.5s ease;
+}
+
+.nav-open:hover{
+	color: var(--primary);
+	transition: color 0.5s ease;
 }
 
 
@@ -155,7 +162,7 @@ body {
 	align-items: center;
 	flex-direction: column;
 	text-align: center;
-	margin: 7rem 0px 0px 0px;
+	/* margin: 7rem 0px 0px 0px; */
 }
 
 .home-data h3 {
@@ -469,30 +476,6 @@ footer{
 .scroll-header {
 	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
 	background: #fff;
-}
-
-/* HOME SECTION ======================== */
-.home-data {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-	text-align: center;
-	margin-top: 7rem;
-}
-
-/* .home-data h3 {
-	font-weight: 600;
-	margin-bottom: 1rem;
-	color: #ce0f0f;
-	text-transform: uppercase;
-} */
-
-.home-data h1 {
-	font-size: 2.8rem;
-	font-weight: 700;
-	line-height: 3.5rem;
-	text-transform: uppercase;
 }
 
 
