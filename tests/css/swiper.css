@@ -33,8 +33,6 @@
     font-size: 18px;
     background: #fff;
     display: flex;
-    /* margin-left: 25px;
-    margin-right: 25px; */
     justify-content: center;
     align-items: center;
     width:575px;
@@ -65,22 +63,27 @@
     background: var(--primary);
     height: 10px;
     width: 10px;
-    transition: color .5s ease;
+    transition: color 0.5s ease;
    }
 
   .swiper-pagination-bullet-active:hover{
-    background: var(--primary);
-    transition: color .5s ease;
+    background: var(--primary-dark);
+    transition: color 0.5s ease;
    }
    
+   .swiper-pagination-bullet{
+    transition: color 0.5s ease;
+   }
+
    .swiper-pagination-bullet:hover{
     background: var(--primary-dark);
-    transition: color .5s ease;
+    transition: color 0.5s ease;
    }
 
    /* Changes the color of the arrows */
-   .swiper-button-next,.swiper-button-prev{
-    color:red;
+   .swiper-button-next, 
+   .swiper-button-prev{
+    color: var(--primary);
     transition: color 0.5s ease;
    }
 
