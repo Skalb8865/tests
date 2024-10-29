@@ -1,8 +1,8 @@
 :root {
 	--basically-black: #0a0a0a;
 
-	--primary: #907dda;
-	--primary-dark: #615399;
+	--primary: #DC0000;
+	--primary-dark: #850000;
 
 
 	--light-grey: #BDC4D0;
@@ -61,13 +61,21 @@
 
 
   /* Changes the color of the pagination when you hover over them */
+  .swiper-pagination-bullet-active{
+    background: var(--primary);
+    height: 10px;
+    width: 10px;
+    transition: color .5s ease;
+   }
+
   .swiper-pagination-bullet-active:hover{
-    background: red;
-    
+    background: var(--primary);
+    transition: color .5s ease;
    }
    
    .swiper-pagination-bullet:hover{
-    background: purple;
+    background: var(--primary-dark);
+    transition: color .5s ease;
    }
 
    /* Changes the color of the arrows */
@@ -80,6 +88,6 @@
    /* Changes the color of the arrows when you hover over them*/
    .swiper-button-next:hover, 
    .swiper-button-prev:hover{
-    color: orange;
+    color: var(--primary-dark);
     transition: color 0.5s ease;
    }
