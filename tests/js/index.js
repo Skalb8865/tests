@@ -24,7 +24,7 @@ function linkAction() {
 navLink.forEach((link) => link.addEventListener("click", linkAction));
 
 // ACTIVE SECTION LINK ============================
-// const sections = document.querySelectorAll("section[id");
+const sections = document.querySelectorAll("section[id");
 
 // This causes a ton of errors so I commented it out
 
