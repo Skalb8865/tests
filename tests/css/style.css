@@ -36,7 +36,7 @@ html {
 }
 
 body {
-    font-family: "Poppins", sans-serif;
+    font-family: 'Times New Roman', serif;
     justify-content: center;
     align-items: center;
 }
@@ -116,8 +116,7 @@ body {
     top: 0;
     left: 0;
     transition: all 0.3s;
-    padding-top: 8px;
-    padding-bottom: 8px;
+    padding: 8px 0px 8px 0px;
 }
 
 .nav {
@@ -404,11 +403,6 @@ footer {
 
 .nav {
     height: 4.5rem;
-
-}
-
-.nav-item {
-    margin-bottom: 1.5rem;
 }
 
 .nav-link {
@@ -420,7 +414,7 @@ footer {
 
 .nav-link:hover {
     color: #fff;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .nav-close {
@@ -440,7 +434,7 @@ footer {
 .active-link {
     position: relative;
     color: #fff;
-    font-weight: 500;
+    font-weight:600;
 }
 
 .active-link::before {
@@ -480,7 +474,7 @@ footer {
     .nav-list {
         display: flex;
         align-items: center;
-        margin-right: 50px;
+        /* margin-right: 50px; */
     }
 
     .nav-item {
@@ -489,7 +483,7 @@ footer {
     }
 
     .nav-link{
-        font-size: 1rem;
+        font-size: 1.5rem;
         color: #000;
     }
 
