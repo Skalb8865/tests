@@ -195,6 +195,10 @@ body {
     line-height: 3.5rem;
     padding-top: 250px;
     text-transform: uppercase;
+    color: var(--primary);
+}
+
+.home-data h1 span{
     color: var(--font-lightest);
 }
 
