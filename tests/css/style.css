@@ -84,15 +84,8 @@ body {
     background-size: cover;
 }
 
-.albums {
-    height: 75dvh;
-    padding: 0px 25px 0px 25px;
-}
-
-
 .band,
 .member,
-.merch,
 .founding {
     background: var(--background-light);
 }
@@ -103,11 +96,10 @@ body {
     background-color: var(--accent);
 }
 
-/* LAYOUT =============================== */
-/* .container {
-	max-width: 968px;
-	margin: 0px 1.5rem;
-} */
+.merch{
+    padding: 25px 25px 25px 25px;
+}
+
 
 
 
@@ -246,7 +238,7 @@ body {
     height: 425px;
     margin: 10px;
     transition: 1.15s ease;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.25), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.6);
 }
 
 .member-cards img {
@@ -258,9 +250,9 @@ body {
 
 /* Increase the size of the cards when you hover over them */
 .member-cards:hover {
-    transform: scale(1.035);
+    transform: scale(1.01);
     transition: 0.5s ease;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.35), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+    box-shadow: 0 3px 10px rgb(0 0 0 / 1.4);
 }
 
 /* sets the height to zero so that the overlay doesn't show up */
@@ -297,17 +289,17 @@ body {
     margin: 0px 0px 5px 0px;
     font-size: 14px;
     letter-spacing: 1px;
-    color: var(--font-light);
+    color: var(--font-lightest);
     text-align: center;
 }
 
 .member-cards .overlay a {
     margin: 10px 0px 65px 0px;
-    color: var(--font-dark);
+    color: var(--font-lightest);
     text-decoration: none;
     font-size: 14px;
     background: var(--primary);
-    border-radius: 50px;
+    border-radius: 15px;
     text-align: center;
     padding: 5px 15px;
     transition: 0.45s ease;
@@ -323,7 +315,6 @@ body {
     transform: scale(1.1);
     transition: 0.45s ease;
     background-color: var(--primary-dark);
-    color: var(--font-lightest);
 }
 
 /* =========== Member Section End =========== */

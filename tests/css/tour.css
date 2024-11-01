@@ -59,7 +59,7 @@
     height: 425px;
     margin: 10px;
     transition: 1.15s ease;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.25), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.6);
 }
 
 .tour-cards img {
@@ -71,72 +71,13 @@
 
 /* Increase the size of the cards when you hover over them */
 .tour-cards:hover {
-    transform: scale(1.035);
+    transform: scale(1.01);
     transition: 0.5s ease;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.35), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+    box-shadow: 0 3px 10px rgb(0 0 0 / 1.4);
 }
 
 /* sets the height to zero so that the overlay doesn't show up */
-.tour-card-overlay {
-    height: 0;
-    width: 100%;
-    background: linear-gradient(transparent, black 100%);
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    padding: 0px 40px;
-    text-align: center;
-    font-size: 14px;
-    transition: 1.15s ease;
-}
 
-.tour-cards .tour-card-overlay h2 {
-    font-weight: 800;
-    margin: 50% 0px 0px 0px;
-    font-size: 30px;
-    letter-spacing: 2px;
-    color: var(--font-lightest);
-    text-align: center;
-}
-
-.tour-cards .tour-card-overlay p {
-    font-weight: 600;
-    margin: 0px 0px 5px 0px;
-    font-size: 14px;
-    letter-spacing: 1px;
-    color: var(--font-light);
-    text-align: center;
-}
-
-.tour-cards .tour-card-overlay a {
-    margin: 10px 0px 65px 0px;
-    color: var(--font-dark);
-    text-decoration: none;
-    font-size: 14px;
-    background: var(--primary);
-    /* border-radius: 50px; */
-    text-align: center;
-    padding: 5px 15px;
-    transition: 0.45s ease;
-}
-
-/* Changes the height of the overlay making it rise until it hits whatever the height is set at. */
-.tour-cards:hover .tour-card-overlay {
-    height: 100%;
-    transition: 1.25s ease;
-}
-
-.tour-cards a:hover {
-    transform: scale(1.1);
-    transition: 0.45s ease;
-    background-color: var(--primary-dark);
-    color: var(--font-lightest);
-}
 
 /* =========== Member Section End =========== */
 /* =========================================== */
