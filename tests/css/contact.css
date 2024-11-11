@@ -1,13 +1,36 @@
-.contact-page{
-    padding: 75px 0px 50px 0px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+:root {
+    --basically-black: #0a0a0a;
+
+    --primary: #DC0000;
+	--primary-dark: #850000;
+
+
+    --light-grey: #BDC4D0;
+    --grey: grey;
+    --dark-grey: #555756;
+
+    --background-light: #F3F4F8;
+    --background-dark: #2F3032;
+    --accent: #e5e4ea;
+
+
+    --font-lightest: #fff;
+    --font-light: #abaab4;
+    --font-dark: #333;
+    --font-darkest: #0a0a0a;
+
 }
 
-.contact {
-    padding: 50px 0px 50px 0px;
+body{
+    overflow-y: hidden; /* Hide vertical scrollbar */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+.contact-page{
+    height: 90dvh;
+    padding: 0px 0px 0px 0px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -21,7 +44,7 @@
 }
 
 .contact-form {
-    padding: 150px 50px 50px 50px;
+    padding: 0px 15px;
     text-align: center;
 }
 
@@ -38,10 +61,14 @@
     margin-bottom: 20px;
     border-radius: 5px;
     border: 1px solid #ccc;
+    background: var(--accent);
+
+    /* Makes it so you cant resized the textarea by dragging from the bottom right corner of the box */
+    resize: none;
 }
 
 .contact-form form button {
-    background-color: #f7931a;
+    background-color: var(--primary);
     color: white;
     padding: 15px 25px;
     border: none;
@@ -51,21 +78,6 @@
 }
 
 .contact-form form button:hover{
-    background-color: #ca7710;
+    background-color: var(--primary-dark);
     transition: 0.5s ease;
 }
-
-/* =========== Member Section Start =========== */
-/* ============================================ */
-
-
-/*these are the album pages css after you click the album */
-
-/* =========== album page ends =========== */
-/* =========================================== */
-
-
-
-
-/* =========== Member album-section End =========== */
-/* =========================================== */
