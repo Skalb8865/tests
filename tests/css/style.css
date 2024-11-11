@@ -184,8 +184,8 @@ body {
     margin-left: 43rem;
 }
 
-.band-history {
-
+.band-history  p {
+  margin-bottom: 2rem;
 }
 
 /*============= Band Page End ===============*/
