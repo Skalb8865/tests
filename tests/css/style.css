@@ -91,6 +91,7 @@ body {
 }
 
 .band,
+
 .member,
 .founding {
     background: var(--background-light);
@@ -172,8 +173,23 @@ body {
     transition: color 0.5s ease;
 }
 
+/*========= Band Page Start ==========*/
+/*====================================*/
+.history{
+    background-color: #F3F4F8;
+}
+.band-h2{
+    font-size: 30px;
+    font-weight: 600px;
+    margin-left: 43rem;
+}
 
+.band-history  h3 {
+  margin-top: 2rem;
+}
 
+/*============= Band Page End ===============*/
+/*===========================================*/
 
 
 /* =========== Home Section Start =========== */
