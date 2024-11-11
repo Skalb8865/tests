@@ -41,6 +41,26 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.35), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
 }
 
+.albums-page{
+    padding: 100px 0px 100px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.albums-page h1 {
+    font-weight: 600;
+    font-size: 50px;
+    letter-spacing: 2px;
+    color: var(--background-dark);
+    text-align: center;
+    margin: 0px 0px 3rem 0px;
+    border-bottom: solid var(--primary);
+    border-radius: 15px;
+    border-width: 4px;
+    padding-bottom: 18px;
+}
 
 /*these are the album pages css after you click the album */
 

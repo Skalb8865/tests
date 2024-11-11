@@ -23,7 +23,7 @@
 
 
 .tours {
-    padding: 100px 0px 100px 0px;
+    padding:350px 0px 100px 0px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -54,7 +54,6 @@
 
 .tour-cards {
     position: relative;
-
     width: 410px;
     height: 425px;
     margin: 10px;
@@ -71,7 +70,7 @@
 
 /* Increase the size of the cards when you hover over them */
 .tour-cards:hover {
-    transform: scale(1.01);
+    transform: scale(1.025);
     transition: 0.5s ease;
     box-shadow: 0 3px 10px rgb(0 0 0 / 1.4);
 }

@@ -42,11 +42,11 @@ body {
     align-items: center;
 }
 
-h2{
+/* h2{
     font-size: 30px;
     font-weight: 600px;
     
-}
+} */
 
 /* REUSABLE CSS CLASSES ============================ */
 /* .section {
@@ -58,6 +58,17 @@ h2{
     text-align: center;
     margin-bottom: 1.5rem;
     font-weight: 600;
+}
+
+.home {
+    /* background-color: var(--background-light); */
+    height: 100dvh;
+    background-image: url(../res/Group.png);
+    -webkit-background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .home,
@@ -78,15 +89,6 @@ h2{
     background-repeat: no-repeat;
     background-size: cover;
 }
-.home {
-    /* background-color: var(--background-light); */
-    background-image: url(../res/Group.png);
-    -webkit-background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
 .band,
 .member,
@@ -97,10 +99,11 @@ h2{
 .albums,
 .tour,
 .members {
-    background-color: var(--accent);
+    background: var(--accent);
 }
 
 .merch{
+    background:var(--background-light);
     padding: 25px 25px 25px 25px;
 }
 

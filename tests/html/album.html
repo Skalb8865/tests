@@ -13,6 +13,7 @@
 
   <!-- BOXICONS =================================== -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -32,7 +33,8 @@
             <a href="album.html" class="nav-link active-link">Music</a>
           </li>
           <li>
-            <a href="../html/index.html"><img src="../res/Stage Fright Logo No Background 2.png" alt=" Stage Fright Logo" class="logo"></a>
+            <a href="../html/index.html"><img src="../res/Stage Fright Logo No Background 2.png"
+                alt=" Stage Fright Logo" class="logo"></a>
           </li>
           <span>
             <li class="nav-item">
@@ -52,43 +54,46 @@
   </header>
 
   <main class="main">
-  
-    <div class="album-data">
-    <section class="section home" id="album" >
-        <!-- <h3>Stage Fright</h3> -->
-        
-      </div>
-    </section>
 
-    <div class="our-albums" id="our-albums">
-      <div class="albums-wrapper">
+    <div class="albums-page">
+      <h1>Our Members</h1>
 
-        <div class="albums-cards">
-          <a href="album1.html">
-            <img src="../res/STAGE FRIGHT (3).png" alt="Aidien" />
-          </a>
-        </div>
 
-        <div class="albums-cards">
-          <a href="album2.html">
-            <img src="../res/Acantha (1).png " alt="Sean" />
-          </a>
-        </div>
-        
-        <div class="albums-cards">
-          <a href="album3.html">
-            <img src="../res/NYX.png" alt="Jabari" />
-          </a>
+      <div class="our-albums" id="our-albums">
+        <div class="albums-wrapper">
+
+          <div class="albums-cards" data-aos="fade-up">
+            <a href="album1.html">
+              <img src="../res/STAGE FRIGHT (3).png" alt="Aidien" />
+            </a>
+          </div>
+
+          <div class="albums-cards" data-aos="fade-up">
+            <a href="album2.html">
+              <img src="../res/Acantha (1).png " alt="Sean" />
+            </a>
+          </div>
+
+          <div class="albums-cards" data-aos="fade-up">
+            <a href="album3.html">
+              <img src="../res/NYX.png" alt="Jabari" />
+            </a>
+          </div>
         </div>
       </div>
+
     </div>
-
-  
   </main>
   <footer>
 
-   <!-- JS LINKS =============================== -->
+    <!-- JS LINKS =============================== -->
     <script src="../js/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            AOS.init();
+        });
+    </script>
   </footer>
 </body>
 
