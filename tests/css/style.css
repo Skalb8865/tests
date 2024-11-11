@@ -350,7 +350,7 @@ body {
 /* =========== Footer Section Start ========== */
 /* =========================================== */
 footer {
-    padding: 100px;
+    padding: 100px 100px 0px 100px !important;
     background-color: var(--background-dark);
 }
 

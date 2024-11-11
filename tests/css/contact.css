@@ -1,0 +1,65 @@
+.contact-page{
+    padding: 100px 0px 100px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact {
+    padding: 100px 0px 100px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contact-form {
+    padding: 150px 50px 50px 50px;
+    text-align: center;
+}
+
+.contact-form form input, 
+.contact-form form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.contact-form form button {
+    background-color: #f7931a;
+    color: white;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.contact-form form button:hover{
+    background-color: #ca7710;
+    transition: 0.5s ease;
+}
+
+/* =========== Member Section Start =========== */
+/* ============================================ */
+
+
+/*these are the album pages css after you click the album */
+
+/* =========== album page ends =========== */
+/* =========================================== */
+
+
+
+
+/* =========== Member album-section End =========== */
+/* =========================================== */
