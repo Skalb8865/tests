@@ -345,16 +345,192 @@ body {
 /* =========== Member Section End =========== */
 /* =========================================== */
 
-
+.small_hr {
+    width: 35px;
+    color: var(--primary);
+    background-color: var(--primary);
+    margin-bottom: 30px;
+    border: none;
+    border-top: 5px solid var(--primary);
+    color: #333;
+  }
+  
+  .icon {
+    color: black;
+    cursor: pointer;
+  }
+  
+  .icon a {
+    text-decoration: none;
+    color: var(--basically-black);
+  }
+  
+  .button {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background-color: var(--accent);
+    border-radius: 50px;
+    line-height: 60px;
+    text-align: center;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+    transition: 0.7s;
+    text-decoration: none;
+  }
+  
+  .wrapper .button .icon {
+    font-size: 20px;
+  }
+  
+  .wrapper .button:hover {
+    width: 85px;
+    transition: 0.7s;
+  }
+  
+  .wrapper .button:nth-child(1):hover .icon {
+    color: #4267B2;
+    background: -webkit-gradient(linear, left top, left bottom, from(#4267B2), to(#4267B2));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .wrapper .button:nth-child(2):hover .icon {
+    background: -webkit-gradient(linear, left top, left bottom, from(#f9ce34), to(#6228d7));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .wrapper .button:nth-child(3):hover .icon {
+    background: -webkit-gradient(linear, left top, left bottom, from(#1da1f2), to(#1da1f2));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .wrapper .button:nth-child(4):hover .icon {
+    background: -webkit-gradient(linear, left top, left bottom, from(#FF0000), to(#FF0000));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  
+  /***********************************************************/
+  /*Footer Classes and Styling*/
+  /**********************************************************/
+  
+  .footer_container {
+    background-color: var(--background-dark);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .footer_container p {
+    color: var(--font-lightest);
+    padding-bottom: 10px;
+  }
+  
+  .footer_links {
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footer_link_wrapper {
+    display: flex;
+  }
+  
+  .footer_link_items {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 16px;
+    text-align: left;
+    width: 16rem;
+    box-sizing: border-box;
+  }
+  
+  .footer_link_items h2 {
+    color: #fff;
+    margin-bottom: 1rem;
+    /*margin: 0 0 1rem 0;*/
+  }
+  
+  .footer_link_items a {
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: .5rem;
+    transition: .3s ease-out;
+  }
+  
+  .footer_link_items a:hover {
+    color: var(--primary);
+    transition: .3s ease-out;
+  }
+  
+  .website_rights {
+    color: #fff;
+  }
+  
+  
+  @media screen and (max-width:1000px) {
+    .footer_link_wrapper {
+      flex-direction: column;
+    }
+  
+    .footer_links {
+      padding-top: 1rem;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .footer_link_items {
+      margin: 0;
+      padding: 10px;
+      width: 100%;
+    }
+  }
+  
+  @media screen and (max-width:750px) {
+    .website_rights {
+      margin-bottom: 1.5rem;
+    }
+  }
+  
+  @media screen and (max-width:1000px){
+    .footer_link_wrapper{
+      flex-direction: column;
+    }
+  .footer_links{
+      padding-top: 1rem;
+    }
+  }
+  
+  @media screen and (max-width: 600px){
+    .footer_link_items{
+      margin:0;
+      padding: 10px;
+      width: 100%;
+    }
+  }
+  
+  @media screen and (max-width:750px){
+      .social_media_wrapper{
+          flex-direction: column;
+      }
+      .website_rights{
+          margin-bottom: 1.5rem;
+      }
+      .social_media{
+          margin-bottom: 1.5rem;
+      }
+  }
 
 
 
 /* =========== Footer Section Start ========== */
 /* =========================================== */
-footer {
-    padding: 100px 100px 0px 100px !important;
-    background-color: var(--background-dark);
-}
 
 /* =========== Footer Section End ========== */
 /* ========================================= */

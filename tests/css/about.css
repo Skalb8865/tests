@@ -1,15 +1,21 @@
 /* About Section */
 
 .about {
-    height: 90dvh;
     background: var(--accent);
     padding: 100px 0 20px 0;
     text-align: center;
 }
 
 .about h1 {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
+    /* font-size: 2.5rem;
+    margin-bottom: 20px; */
+    font-weight: 600;
+    font-size: 50px;
+    letter-spacing: 2px;
+    color: var(--background-dark);
+    text-align: center;
+    margin: 0px 0px 3rem 0px;
+    padding-bottom: 18px;
 }
 
 .about p {
