@@ -40,6 +40,7 @@ body {
     font-family: 'Times New Roman', serif;
     justify-content: center;
     align-items: center;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
 }
 
 /* h2{
@@ -176,12 +177,13 @@ body {
 /*========= Band Page Start ==========*/
 /*====================================*/
 .history{
-    background-color: #F3F4F8;
+    padding: 15px;
+    background-color: var(--accent);
 }
-.band-h2{
+.band-header{
+    text-align: center;
     font-size: 30px;
     font-weight: 600px;
-    margin-left: 43rem;
 }
 
 .band-history  h3 {

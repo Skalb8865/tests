@@ -8,12 +8,14 @@
   <title>Stage Fright</title>
 
   <!-- CSS LINK =============================== -->
-  <link rel="stylesheet" href="../css/swiper-bundle.min.css" />
   <link rel="stylesheet" href="../css/style.css" />
-  <link rel="stylesheet" href="../css/swiper.css">
+  <link rel="stylesheet" href="../css/about.css">
 
   <!-- BOXICONS =================================== -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" />
+
+  <!-- AOS =================================== -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -54,9 +56,27 @@
   </header>
 
   <main class="main">
+
+    <section class="about">
+      <h1>About Us</h1>
+      <div class="about-info">
+        <div class="about-img">
+          <img src="../res/Group.png" alt="Stage Fright Group Photo" data-aos="fade-right">
+        </div>
+        <div>
+          <p> Stage Fright is a 2021 American rock band formed in Columbus, Ohio. Our band consists of Lead Vocalist
+            Aidien Gooden, Lead Guitarist Sean Kalb, Drummer Jabari Hill, and Lead Bassist Gabe Zeigler.
+            Our debut album, "Acantha," was released on September 16, 2021, by TR Records.
+          </p>
+          <a href="#member"><button data-aos="fade-up">Read More...</button></a>
+        </div>
+      </div>
+    </section>
+
+
     <div class="member" id="member">
-      <h1>Our Members</h1>
-      <div class="member-wrapper">
+      <h1 data-aos="fade-up">Our Members</h1>
+      <div class="member-wrapper" data-aos="fade-up">
 
         <div class="member-cards">
           <img src="../res/Aidien.png" alt="Aidien" />
@@ -89,40 +109,42 @@
           <img src="../res/Gabe.png" alt="Gabe" />
           <div class="overlay">
             <h2>Gabe Zeigler</h2>
-            <p>Bass Guitarist</p>
+            <p>Lead Bassist</p>
             <a href="../html/Band.html">Learn More</a>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="history"  id="history" >
+
+    <div class="history" id="history">
       <div>
         <div>
-          <h2 class="band-h2">Band Member History </h2>
-         <div class="band-history">
-          <div>
-            <h3> Aidien Gooden </h3>
-            <p> As a child Aidien has had a talent for singing, So realzing this his father signed him up for his local churches choir. He would contiune this path until he became the leader of Stage Fright </p>
-          </div>
-         
-          <div> 
-            <h3> Sean Kalb </h3>
-            <p> backstory Placeholder</p>
-          </div>
+          <h2 class="band-header" data-aos="fade-up">Band Member History </h2>
+          <div class="band-history">
+            <div data-aos="fade-left">
+              <h3> Aidien Gooden </h3>
+              <p> As a child Aidien has had a talent for singing, So realzing this his father signed him up for his
+                local churches choir. He would contiune this path until he became the leader of Stage Fright </p>
+            </div>
 
-          <div> 
-            <h3> Jabari Hill </h3>
-            <p> backstory Placeholder</p>
-          </div>
+            <div data-aos="fade-left">
+              <h3> Sean Kalb </h3>
+              <p> backstory Placeholder</p>
+            </div>
 
-          <div> 
-            <h3> Gabe Zeigler </h3>
-            <p> backstory Placeholder</p>
+            <div data-aos="fade-left">
+              <h3> Jabari Hill </h3>
+              <p> backstory Placeholder</p>
+            </div>
+
+            <div data-aos="fade-left">
+              <h3> Gabe Zeigler </h3>
+              <p> backstory Placeholder</p>
+            </div>
           </div>
         </div>
       </div>
-      </div> 
 
     </div>
 
@@ -131,34 +153,11 @@
 
     <!-- JS LINKS =============================== -->
     <script src="../js/index.js"></script>
-    <!-- Swiper JS -->
-    <script src="../js/swiper-bundle.min.js"></script>
-    <!-- JS =============================== -->
+    <!-- AOS JS -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
     <script>
-      var swiper = new Swiper(".mySwiper", {
-        slidesPerView: 3,
-        spaceBetween: 20,
-        loop: false,
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
-        },
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-        },
-
-        breakpoints: {
-          600: {
-            slidesPerView: 1,
-          },
-          766: {
-            slidesPerView: 2,
-          },
-          1200: {
-            slidesPerView: 3,
-          },
-        },
+      document.addEventListener("DOMContentLoaded", function () {
+        AOS.init();
       });
     </script>
   </footer>
