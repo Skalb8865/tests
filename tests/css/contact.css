@@ -23,11 +23,6 @@
 
 }
 
-body{
-    overflow-y: hidden; /* Hide vertical scrollbar */
-    overflow-x: hidden; /* Hide horizontal scrollbar */
-}
-
 .contact-page{
     height: 90dvh;
     padding: 0px 0px 0px 0px;
