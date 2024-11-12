@@ -345,6 +345,14 @@ body {
 /* =========== Member Section End =========== */
 /* =========================================== */
 
+
+
+/* =========== Footer Section Start ========== */
+/* =========================================== */
+
+
+
+
 .small_hr {
     width: 35px;
     color: var(--primary);
@@ -388,27 +396,30 @@ body {
   }
   
   .wrapper .button:nth-child(1):hover .icon {
-    color: #4267B2;
     background: -webkit-gradient(linear, left top, left bottom, from(#4267B2), to(#4267B2));
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   
   .wrapper .button:nth-child(2):hover .icon {
     background: -webkit-gradient(linear, left top, left bottom, from(#f9ce34), to(#6228d7));
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   
   .wrapper .button:nth-child(3):hover .icon {
-    background: -webkit-gradient(linear, left top, left bottom, from(#1da1f2), to(#1da1f2));
+    background: -webkit-gradient(linear, left top, left bottom, from(#555756), to(#BDC4D0));
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   
   .wrapper .button:nth-child(4):hover .icon {
     background: -webkit-gradient(linear, left top, left bottom, from(#FF0000), to(#FF0000));
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   
@@ -426,8 +437,9 @@ body {
   }
   
   .footer_container p {
-    color: var(--font-lightest);
+    color: var(--font-light);
     padding-bottom: 10px;
+    font-size: 18px;
   }
   
   .footer_links {
@@ -452,13 +464,14 @@ body {
   }
   
   .footer_link_items h2 {
-    color: #fff;
+    color: var(--font-lightest);
     margin-bottom: 1rem;
     /*margin: 0 0 1rem 0;*/
   }
   
   .footer_link_items a {
-    color: #fff;
+    color: var(--font-light);
+    font-size: 18px;
     text-decoration: none;
     margin-bottom: .5rem;
     transition: .3s ease-out;
@@ -470,7 +483,7 @@ body {
   }
   
   .website_rights {
-    color: #fff;
+    color: var(--font-lightest);
   }
   
   
@@ -529,8 +542,6 @@ body {
 
 
 
-/* =========== Footer Section Start ========== */
-/* =========================================== */
 
 /* =========== Footer Section End ========== */
 /* ========================================= */
