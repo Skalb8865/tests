@@ -57,7 +57,7 @@
     width: 410px;
     height: 425px;
     margin: 10px;
-    transition: 1.15s ease;
+    transition: 0.5s ease;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.6);
 }
 
