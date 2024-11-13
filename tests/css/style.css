@@ -187,7 +187,11 @@ body {
 }
 
 .band-history  h3 {
-  margin-top: 2rem;
+  margin-top: 2.5rem;
+}
+
+.band-history p {
+    padding-top: 6px;
 }
 
 /*============= Band Page End ===============*/
