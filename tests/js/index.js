@@ -91,3 +91,8 @@ const hideMobileMenu = () => {
 menuLinks.addEventListener('click', hideMobileMenu);
 navLogo.addEventListener('click', hideMobileMenu);
 /*--------------------------------------END OF album1,2,3 js--------------------------------*/
+/*--ON CLICK------------------------*/
+let changeButton = function(icon){
+  icon.classList.toggle('fa-circle-pause')
+}
+/*--ON CLICK------------------------*/

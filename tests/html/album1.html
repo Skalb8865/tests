@@ -10,97 +10,107 @@
   <!-- CSS LINK =============================== -->
   <link rel="stylesheet" href="../css/style.css" />
   <link rel="stylesheet" href="../css/albums.css">
-  
+
+  <!-- BOXICONS =================================== -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" />
+
+  <!-- AOS =================================== -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <!-- Font Awesome =============================== -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <!-- BOXICONS =================================== -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" />
 </head>
 
 <body>
-    <header class="header" id="header">
-      <nav class="nav container">
-        <!-- <a href="../html/index.html"><img src="../res/Stage Fright Logo No Background 2.png" alt=" Stage Fright Logo" class="logo"></a> -->
-  
-        <div class="main-nav" id="main-nav">
-          <ul class="nav-list">
-            <!-- <li class="nav-item">
+  <header class="header" id="header">
+    <nav class="nav container">
+      <!-- <a href="../html/index.html"><img src="../res/Stage Fright Logo No Background 2.png" alt=" Stage Fright Logo" class="logo"></a> -->
+
+      <div class="main-nav" id="main-nav">
+        <ul class="nav-list">
+          <!-- <li class="nav-item">
               <a href="index.html" class="nav-link active-link">Home</a>
             </li> -->
+          <li class="nav-item">
+            <a href="band.html" class="nav-link">Band</a>
+          </li>
+          <li class="nav-item">
+            <a href="album.html" class="nav-link active-link">Music</a>
+          </li>
+          <li>
+            <a href="../html/index.html"><img src="../res/Stage Fright Logo No Background 2.png"
+                alt=" Stage Fright Logo" class="logo"></a>
+          </li>
+          <span>
             <li class="nav-item">
-              <a href="band.html" class="nav-link">Band</a>
+              <a href="merch.html" class="nav-link">Merch</a>
             </li>
-            <li class="nav-item">
-              <a href="album.html" class="nav-link active-link">Music</a>
-            </li>
-            <li>
-              <a href="../html/index.html"><img src="../res/Stage Fright Logo No Background 2.png" alt=" Stage Fright Logo" class="logo"></a>
-            </li>
-            <span>
-              <li class="nav-item">
-                <a href="merch.html" class="nav-link">Merch</a>
-              </li>
-            </span>
-            <li class="nav-item">
-              <a href="tour.html" class="nav-link">Tour</a>
-            </li>
-  
-            <div class="nav-close" id="nav-close"><i class="bx bx-x"></i></div>
+          </span>
+          <li class="nav-item">
+            <a href="tour.html" class="nav-link">Tour</a>
+          </li>
+
+          <div class="nav-close" id="nav-close"><i class="bx bx-x"></i></div>
+        </ul>
+      </div>
+
+      <div class="nav-open" id="nav-open"><i class="bx bx-grid-alt"></i></div>
+    </nav>
+  </header>
+
+  <div class="content">
+    <div class="album-section">
+      <div class="album_Name">
+        PROMETHEUS SOUNDTRACK
+      </div>
+    </div>
+    <div class="album-section">
+
+    </div>
+    <div class="main" id="about">
+      <div class="main_container">
+        <div class="main_img--container">
+          <img class="main_img--card" src="../res/STAGE FRIGHT (3).png" alt=" Album PROMETHEUS">
+        </div>
+        <div class="main_content">
+          <h1>PROMETHEUS</h1>
+          <h2>Soundtrack</h2>
+
+          <ul>
+            <ul class="Soundtrack"><button onclick="myFunction()"><i class="fa-regular fa-circle-play"></i><i class="fa-regular fa-circle-pause"></i></button>Electric Storm</ul>
+            <ul class="Soundtrack"><i class="fa-regular fa-circle-play" onclick="changeButton(this)"></i>Crank Up the Chaos</ul>
+            <ul class="Soundtrack"><i class="fa-regular fa-circle-play"></i><i class="fa-regular fa-circle-pause"></i>Riff Riot</ul>
+            <ul class="Soundtrack"><i class="fa-regular fa-circle-play"></i><i class="fa-regular fa-circle-pause"></i>Power Surge</ul>
+            <ul class="Soundtrack"><i class="fa-regular fa-circle-play"></i><i class="fa-regular fa-circle-pause"></i>Fire Within</ul>
+            <ul class="Soundtrack"><i class="fa-regular fa-circle-play"></i><i class="fa-regular fa-circle-pause"></i>Rebel's Rise</ul>
+            <ul class="Soundtrack"><i class="fa-regular fa-circle-play"></i><i class="fa-regular fa-circle-pause"></i>Fuel the Fire</ul>
+            <ul class="Soundtrack"><i class="fa-regular fa-circle-play"></i><i class="fa-regular fa-circle-pause"></i>Unleashed</ul>
+            <ul class="Soundtrack"><i class="fa-regular fa-circle-play"></i><i class="fa-regular fa-circle-pause"></i>Amped Up</ul>
+            <ul class="Soundtrack"><i class="fa-regular fa-circle-play"></i><i class="fa-regular fa-circle-pause"></i>Burning Bridges</ul>
+            <ul class="Soundtrack"><i class="fa-regular fa-circle-play"></i><i class="fa-regular fa-circle-pause"></i>Thunder in a Bottle</ul>
+            <ul class="Soundtrack"><i class="fa-regular fa-circle-play"></i><i class="fa-regular fa-circle-pause"></i>Wildfire Rush</ul>
           </ul>
-        </div>
-  
-        <div class="nav-open" id="nav-open"><i class="bx bx-grid-alt"></i></div>
-      </nav>
-    </header>
-  
-    <div class="content">
-        <div class="album-section">
-            <div class="album_Name">
-                PROMETHEUS SOUNDTRACK
-            </div>
-        </div>
-        <div class="album-section">
-            
-        </div>
-        <div class="main" id="about">
-          <div class="main_container">
-            <div class="main_img--container">
-              <img class="main_img--card" src="../res/STAGE FRIGHT (3).png" alt=" Album PROMETHEUS">
-            </div>
-            <div class="main_content">
-              <h1>PROMETHEUS</h1>
-              <h2>Soundtrack</h2>
-              
-            <ul>
-                <ul class="Soundtrack">Electric Storm</ul>
-                <ul class="Soundtrack">Crank Up the Chaos</ul>
-                <ul class="Soundtrack">Riff Riot</ul>
-                <ul class="Soundtrack">Power Surge</ul>
-                <ul class="Soundtrack">Fire Within</ul>
-                <ul class="Soundtrack">Rebel's Rise</ul>
-                <ul class="Soundtrack">Fuel the Fire</ul>
-                <ul class="Soundtrack">Unleashed</ul>
-                <ul class="Soundtrack">Amped Up</ul>
-                <ul class="Soundtrack">Burning Bridges</ul>
-                <ul class="Soundtrack">Thunder in a Bottle</ul>
-                <ul class="Soundtrack">Wildfire Rush</ul>
-              </ul>
-           
-        
-            </div>
-          </div>
-          <div class="album-section">
-            <div>
-            </div>
-          </div>
+
+
         </div>
       </div>
-   
-    
-    <footer>
-  
-     <!-- JS LINKS =============================== -->
-      <script src="../js/index.js"></script>
-    </footer>
-  </body>
-  
-  </html>
+      <div class="album-section">
+        <div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <footer>
+    <!-- Font Awesome Js =============================== -->
+    <script src="https://kit.fontawesome.com/c4fc73ac8f.js" crossorigin="anonymous"></script>
+    <!-- JS LINKS =============================== -->
+    <script src="../js/index.js"></script>
+  </footer>
+</body>
+
+</html>

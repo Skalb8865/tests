@@ -172,6 +172,14 @@
     font-weight: 700;
 }
 
+.fa-circle-pause{
+opacity: 0;
+}
+.fa-circle-play{
+    cursor: pointer;
+    padding-left: 2px;
+}
+
 /********************************************/
 /*Main Section Styling for Mobile Devices*/
 @media screen and (max-width: 600px) {
