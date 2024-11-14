@@ -162,8 +162,9 @@ body {
 /*========= Band Page Start ==========*/
 /*====================================*/
 .history{
-    padding: 15px;
+    padding: 25px;
     background-color: var(--accent);
+
 }
 .band-header{
     text-align: center;
@@ -172,13 +173,13 @@ body {
 }
 
 .band-history  h3 {
-  margin-top: 2.5rem;
+  margin-top: 1.5rem;
 }
 
 .band-history p {
-    padding-top: 6px;
+    padding-top: 3px;
 
-    padding-bottom: 5px;
+    padding-bottom: 15px;
 }
 
 /*============= Band Page End ===============*/
