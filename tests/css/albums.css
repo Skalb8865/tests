@@ -97,7 +97,7 @@
     top:0;
     left:0;
     width:0;
-    height:100%; 
+    height:100%;
     border-radius:5px;
     background:#da22ff;
     transition: all .3s;
@@ -136,7 +136,7 @@
     flex-direction: column;
     justify-content: center;
     color:#fff;
-    
+
 }
 .main_content h1{
     background-color: #ff8177;
@@ -172,42 +172,34 @@
     font-weight: 700;
 }
 
-.fa-circle-pause{
-opacity: 0;
-}
-.fa-circle-play{
-    cursor: pointer;
-    padding-left: 2px;
-}
-
 /********************************************/
 /*Main Section Styling for Mobile Devices*/
 @media screen and (max-width: 600px) {
 
-    
+
         .main_img--card {
             height: 250px;
             width: 250px;
         }
-    
+
         .main_content h1 {
             font-size: 2rem;
             margin-top: 3rem;
         }
-    
+
         .main_content h2 {
             font-size: 2rem;
         }
-    
+
         .main {
             margin: 0;
             padding: 0;
         }
-    
+
         .main_content p {
             margin-top: 2rem;
         }
-    
+
         .main_btn {
             margin: 2.5rem 0;
             padding: .75rem 2rem;
@@ -222,25 +214,25 @@ opacity: 0;
         height: 250px;
         width: 250px;
     }
-    
+
     .main_content h1 {
         font-size: 2rem;
         margin-top: 3rem;
     }
-    
+
     .main_content h2 {
         font-size: 2rem;
     }
-    
+
     .main {
         margin: 0;
         padding: 0;
     }
-    
+
     .main_content p {
         margin-top: 2rem;
     }
-    
+
     .main_btn {
         margin: 2.5rem 0;
         padding: .75rem 2rem;
