@@ -12,7 +12,7 @@
     --dark-grey: #555756;
 
     --background-light: #F3F4F8;
-    --background-dark: #2F3032;
+    --background-dark: #0a0a0a;
     --accent: #e5e4ea;
 
 
@@ -43,16 +43,6 @@ body {
     overflow-x: hidden; /* Hide horizontal scrollbar */
 }
 
-/* h2{
-    font-size: 30px;
-    font-weight: 600px;
-    
-} */
-
-/* REUSABLE CSS CLASSES ============================ */
-/* .section {
-	padding: 4.5rem 0 2rem;
-} */
 
 .section-title {
     font-size: 1.5rem;
@@ -62,8 +52,7 @@ body {
 }
 
 .home {
-    /* background-color: var(--background-light); */
-    height: 100dvh;
+    min-height: 100dvh;
     background-image: url(../res/Group.png);
     -webkit-background-size: cover;
     background-attachment: fixed;
@@ -79,7 +68,7 @@ body {
 .tour,
 .founding,
 .members {
-    height: 100vh;
+    min-height: 100dvh;
 }
 
 .album {
@@ -158,10 +147,6 @@ body {
     margin: 0px 0px 1.5rem 0px;
 }
 
-/* span .nav-item{
-    margin-left: 0.5rem;
-} */
-
 .nav-open {
     font-size: 1.2rem;
     cursor: pointer;
@@ -218,11 +203,11 @@ body {
     line-height: 3.5rem;
     padding-top: 250px;
     text-transform: uppercase;
-    color: var(--primary);
+    color: var(--font-lightest);
 }
 
 .home-data h1 span{
-    color: var(--font-lightest);
+    color: var(--primary);
 }
 
 /* =========== Home Section End =========== */
@@ -717,11 +702,4 @@ body {
         font-size: 4rem;
         line-height: 5rem;
     }
-}
-
-@media screen and (min-width: 968px) {
-    /* .container {
-		margin-left: auto;
-		margin-right: auto;
-	} */
 }

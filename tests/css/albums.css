@@ -1,7 +1,7 @@
 /* =========== Member Section Start =========== */
 /* ============================================ */
 .our-albums {
-    padding: 100px 0px 230px 0px;
+    padding: 100px 0px 100px 0px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -62,82 +62,6 @@
     padding-bottom: 18px;
 }
 
-.main_img--container {
-    text-align: center;
-    font-size: 14rem;
-}
-
-.main_img--card {
-    margin: 10px;
-    height: 450px;
-    width: 450px;
-    border-radius: 7px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    color: #fff;
-    background-image: linear-gradient(-225deg, #231557 0%, #44107a 33%, #ff1361 66%, #fff800 100%);
-}
-
-.main_content {
-    color: #fff;
-    width: 100%;
-}
-
-.main_content h1 {
-    background-color: #ff8177;
-    background-image: linear-gradient(to top, #ff087b 0%, #ed1a52 100%);
-    background-size: 100%;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
-    font-size: 4rem;
-    margin-bottom: 32px;
-    text-transform: uppercase;
-}
-
-.main_content h2 {
-    background-color: #ff8177;
-    background-image: linear-gradient(to right, #8f0eff 0%, #da22ff 100%);
-    background-size: 100%;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
-    font-size: 4rem;
-}
-
-.main_content p {
-    margin-top: 1rem;
-    font-size: 2rem;
-    font-weight: 700;
-}
-
-.main {
-    background-color: #dbdbdb;
-    padding: 10rem 0;
-}
-
-.main_container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    height: 90%;
-    z-index: 1;
-    width: 100%;
-    max-width: 1300px;
-    padding: 0 50px;
-}
-
-.main_img--container {
-    text-align: center;
-    font-size: 14rem;
-}
-
-/*these are the album pages css after you click the album */
 
 /* =========== album page ends =========== */
 /* =========================================== */
