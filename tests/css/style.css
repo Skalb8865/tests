@@ -172,13 +172,13 @@ body {
 }
 
 .band-history  h3 {
-  margin-top: 2.5rem;
+  margin-top: 1.5rem;
 }
 
 .band-history p {
-    padding-top: 2px;
+    padding-top: 3px;
 
-    padding-bottom: 12px;
+    padding-bottom: 15px;
 }
 
 /*============= Band Page End ===============*/
