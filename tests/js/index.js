@@ -3,9 +3,6 @@ const navMenu = document.getElementById("main-nav");
 const navOpen = document.getElementById("nav-open");
 const navClose = document.getElementById("nav-close");
 
-let changeButton = function (icon) {
-    icon.classList.toggle('fa-regular fa-circle-pause');
-}
 /*===== SHOW MENU =====*/
 navOpen.addEventListener("click", () => {
     navMenu.classList.add("show-menu");

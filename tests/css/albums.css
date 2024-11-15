@@ -65,111 +65,102 @@
 
 /* =========== album page ends =========== */
 /* =========================================== */
-.main_btn{
-    border: none;
-    border-radius: 5px;
-    margin-top: 2rem;
-    outline: none;
-    position:relative;
-    background:#833ab4;
-    background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
-    background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
-    padding: 20px 60px;
-    cursor:pointer;
-    transition: all .3s;
+
+#about {
+    background: var(--background-light);
 }
-.main_btn a{
-    position: relative;
-    z-index: 2;
-    color: #fff;
-    text-decoration: none;
-    font-size: 1.8rem;
-}
-.main_btn:hover{
-    color:#fff;
-}
-.main_btn:hover:after{
-    width: 100%;
-}
-.main_btn:after{
-    position: absolute;
-    content: '';
-    top:0;
-    left:0;
-    width:0;
-    height:100%;
-    border-radius:5px;
-    background:#da22ff;
-    transition: all .3s;
-}
-.main{
-    margin-top: 100px;
-    background-color:#323232;
-    padding: 10rem 0;
-}
-.main_container{
-    display:grid;
+
+.main_container {
+    display: grid;
     grid-template-columns: 1fr 1fr;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    height:90%;
+    height: 90%;
     z-index: 1;
-    width:100%;
+    width: 100%;
     max-width: 1300px;
     padding: 0 50px;
 }
-.main_content{
-    color:#fff;
-    width:100%;
+
+.main_content {
+    color: #fff;
+    width: 100%;
 }
-.main_img--container{
-    text-align:center;
-    font-size:14rem;
+
+.main_img--container {
+    text-align: center;
+    font-size: 14rem;
 }
-.main_img--card{
-    margin:10px;
-    height:450px;
-    width:450px;
+
+.main_img--card {
+    margin: 10px;
+    height: 450px;
+    width: 450px;
     border-radius: 11px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    color:#fff;
-
+    color: #fff;
 }
-.main_content h1{
+
+.main_content h1 {
     background-color: #ff8177;
     background-image: linear-gradient(to top, #ff087b 0%, #ed1a52 100%);
     background-size: 100%;
     -webkit-background-clip: text;
-    -moz-background-clip: text ;
+    -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
-    -moz-text-fill-color:transparent;
+    -moz-text-fill-color: transparent;
     font-size: 4rem;
     margin-bottom: 32px;
     text-transform: uppercase;
 }
-.main_content h2{
+
+.main_content h2 {
     background-color: #ff8177;
     background-image: linear-gradient(to right, #8f0eff 0%, #da22ff 100%);
     background-size: 100%;
     -webkit-background-clip: text;
-    -moz-background-clip: text ;
+    -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
-    -moz-text-fill-color:transparent;
+    -moz-text-fill-color: transparent;
     font-size: 4rem;
 }
-.main_content p{
-    margin-top:1rem;
-    font-size: 2rem;
-    font-weight: 700;
-}
-.Soundtrack{
+
+.Soundtrack {
     padding-bottom: 10px;
-    margin-top:1rem;
-    font-size: 2rem;
-    font-weight: 700;
+    margin-top: 2px;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+#soundtrackList .Soundtrack span {
+    border-bottom: solid 2px black;
+    padding: 5px;
+}
+
+.play-icon {
+    padding: 10px;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.play-icon.fa-circle-pause {
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.play-icon:hover {
+    color: var(--primary);
+    transition: 0.3s ease;
+    opacity: 75%;
+}
+
+.play-icon.fa-circle-pause:hover {
+    color: var(--primary);
+    transition: 0.3s ease;
+    opacity: 75%;
 }
 
 /********************************************/
@@ -177,33 +168,33 @@
 @media screen and (max-width: 600px) {
 
 
-        .main_img--card {
-            height: 250px;
-            width: 250px;
-        }
+    .main_img--card {
+        height: 250px;
+        width: 250px;
+    }
 
-        .main_content h1 {
-            font-size: 2rem;
-            margin-top: 3rem;
-        }
+    .main_content h1 {
+        font-size: 2rem;
+        margin-top: 3rem;
+    }
 
-        .main_content h2 {
-            font-size: 2rem;
-        }
+    .main_content h2 {
+        font-size: 2rem;
+    }
 
-        .main {
-            margin: 0;
-            padding: 0;
-        }
+    .main {
+        margin: 0;
+        padding: 0;
+    }
 
-        .main_content p {
-            margin-top: 2rem;
-        }
+    .main_content p {
+        margin-top: 2rem;
+    }
 
-        .main_btn {
-            margin: 2.5rem 0;
-            padding: .75rem 2rem;
-        }
+    .main_btn {
+        margin: 2.5rem 0;
+        padding: .75rem 2rem;
+    }
 }
 
 /********************************************/
