@@ -1,5 +1,6 @@
 /* =========== Member Section Start =========== */
 /* ============================================ */
+
 .our-albums {
     padding: 100px 0px 220px 0px;
     display: flex;
@@ -44,6 +45,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background: var(--background-light);
 }
 
 .albums-page h1 {
@@ -63,23 +65,20 @@
 /* =========== album page ends =========== */
 /* =========================================== */
 
-/* #about {
+.main_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    height: 90%;
+    z-index: 1;
+    width: 100%;
+    padding: 90px 50px 166px 50px;
+    text-transform: uppercase;
     background: var(--background-light);
 }
 
-.main_container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    height: 90%;
-    z-index: 1;
-    width: 100%;
-    max-width: 1300px;
-    padding: 0 50px;
-}
-
 .main_content {
     color: #fff;
     width: 100%;
@@ -88,65 +87,8 @@
 .main_img--container {
     text-align: center;
     font-size: 14rem;
-}
+    justify-self: center;
 
-.main_img--card {
-    margin: 10px;
-    height: 450px;
-    width: 450px;
-    border-radius: 11px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    color: #fff;
-}
-
-.main_content h1 {
-    background-color: #ff8177;
-    background-image: linear-gradient(to top, #ff087b 0%, #ed1a52 100%);
-    background-size: 100%;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
-    font-size: 4rem;
-    margin-bottom: 32px;
-    text-transform: uppercase;
-}
-
-.main_content h2 {
-    background-color: #ff8177;
-    background-image: linear-gradient(to right, #8f0eff 0%, #da22ff 100%);
-    background-size: 100%;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
-    font-size: 4rem;
-} */
-
-.main_container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    height: 90%;
-    z-index: 1;
-    width: 100%;
-    max-width: 1300px;
-    padding: 0 50px;
-    padding: 90px 50px 166px 50px;
-}
-
-.main_content {
-    color: #fff;
-    width: 100%;
-}
-
-.main_img--container {
-    text-align: center;
-    font-size: 14rem;
 }
 
 .main_img--card {
@@ -165,28 +107,12 @@
 }
 
 .main_content h1 {
-    background-color: #ff8177;
-    background-image: linear-gradient(to top, #ff087b 0%, #ed1a52 100%);
-    background-size: 100%;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
+    color: var(--font-darkest);
     font-size: 4rem;
     margin-bottom: 32px;
     text-transform: uppercase;
 }
 
-.main_content h2 {
-    background-color: #ff8177;
-    background-image: linear-gradient(to right, #8f0eff 0%, #da22ff 100%);
-    background-size: 100%;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
-    font-size: 4rem;
-}
 
 .Soundtrack {
     padding-bottom: 10px;
@@ -228,9 +154,15 @@
     opacity: 75%;
 }
 
+/* @media screen and (max-width:1440px) {
+    .songs {
+        padding-left: 25px;
+    }
+} */
+
 /************************************/
 /*Responsive CSS for Mobile Devices**/
-@media screen and (max-width:1000px) {
+@media screen and (max-width:1142px) {
 
     /********************************************/
     /*Responsive styling for main sections*/
@@ -247,6 +179,7 @@
     .main_img--container {
         display: flex;
         justify-content: center;
+        /* padding-left: 0px; */
     }
 
     .main_img--card {
@@ -272,11 +205,17 @@
     .main_content p {
         margin-bottom: 1.5rem;
     }
+
+
 }
 
 /********************************************/
 /*Main Section Styling for Mobile Devices*/
 @media screen and (max-width: 600px) {
+    .main_img--container {
+        padding-left: 0px;
+    }
+
     .main_img--card {
         height: 250px;
         width: 250px;
