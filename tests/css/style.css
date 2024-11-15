@@ -63,7 +63,7 @@ body {
 
 .home,
 .band,
- .albums, 
+ .albums,
 .merch,
 .tour,
 .founding,
@@ -132,7 +132,7 @@ body {
 .logo {
     width: 170px;
     height: 150px;
-    padding: 0px 0px 5px 0px; 
+    padding: 0px 0px 5px 0px;
 }
 
 
@@ -316,7 +316,7 @@ body {
     text-decoration: none;
     font-size: 14px;
     background: var(--primary);
-    border-radius: 15px;
+    border-radius: 5px;
     text-align: center;
     padding: 5px 15px;
     transition: 0.45s ease;
@@ -354,17 +354,17 @@ body {
     border-top: 5px solid var(--primary);
     color: #333;
   }
-  
+
   .icon {
     color: black;
     cursor: pointer;
   }
-  
+
   .icon a {
     text-decoration: none;
     color: var(--basically-black);
   }
-  
+
   .button {
     display: inline-block;
     width: 60px;
@@ -377,49 +377,49 @@ body {
     transition: 0.7s;
     text-decoration: none;
   }
-  
+
   .wrapper .button .icon {
     font-size: 20px;
   }
-  
+
   .wrapper .button:hover {
     width: 85px;
     transition: 0.7s;
   }
-  
+
   .wrapper .button:nth-child(1):hover .icon {
     background: -webkit-gradient(linear, left top, left bottom, from(#4267B2), to(#4267B2));
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
   }
-  
+
   .wrapper .button:nth-child(2):hover .icon {
     background: -webkit-gradient(linear, left top, left bottom, from(#f9ce34), to(#6228d7));
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
   }
-  
+
   .wrapper .button:nth-child(3):hover .icon {
     background: -webkit-gradient(linear, left top, left bottom, from(#555756), to(#BDC4D0));
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
   }
-  
+
   .wrapper .button:nth-child(4):hover .icon {
     background: -webkit-gradient(linear, left top, left bottom, from(#FF0000), to(#FF0000));
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
   }
-  
-  
+
+
   /***********************************************************/
   /*Footer Classes and Styling*/
   /**********************************************************/
-  
+
   .footer_container {
     background-color: var(--background-dark);
     display: flex;
@@ -427,24 +427,24 @@ body {
     align-items: center;
     flex-direction: column;
   }
-  
+
   .footer_container p {
     color: var(--font-light);
     padding-bottom: 10px;
     font-size: 18px;
   }
-  
+
   .footer_links {
     width: 100%;
     max-width: 1000px;
     display: flex;
     justify-content: center;
   }
-  
+
   .footer_link_wrapper {
     display: flex;
   }
-  
+
   .footer_link_items {
     display: flex;
     flex-direction: column;
@@ -454,13 +454,13 @@ body {
     width: 16rem;
     box-sizing: border-box;
   }
-  
+
   .footer_link_items h2 {
     color: var(--font-lightest);
     margin-bottom: 1rem;
     /*margin: 0 0 1rem 0;*/
   }
-  
+
   .footer_link_items a {
     color: var(--font-light);
     font-size: 18px;
@@ -468,27 +468,27 @@ body {
     margin-bottom: .5rem;
     transition: .3s ease-out;
   }
-  
+
   .footer_link_items a:hover {
     color: var(--primary);
     transition: .3s ease-out;
   }
-  
+
   .website_rights {
     color: var(--font-lightest);
   }
-  
-  
+
+
   @media screen and (max-width:1000px) {
     .footer_link_wrapper {
       flex-direction: column;
     }
-  
+
     .footer_links {
       padding-top: 1rem;
     }
   }
-  
+
   @media screen and (max-width: 600px) {
     .footer_link_items {
       margin: 0;
@@ -496,13 +496,13 @@ body {
       width: 100%;
     }
   }
-  
+
   @media screen and (max-width:750px) {
     .website_rights {
       margin-bottom: 1.5rem;
     }
   }
-  
+
   @media screen and (max-width:1000px){
     .footer_link_wrapper{
       flex-direction: column;
@@ -511,7 +511,7 @@ body {
       padding-top: 1rem;
     }
   }
-  
+
   @media screen and (max-width: 600px){
     .footer_link_items{
       margin:0;
@@ -519,7 +519,7 @@ body {
       width: 100%;
     }
   }
-  
+
   @media screen and (max-width:750px){
       .social_media_wrapper{
           flex-direction: column;
@@ -548,7 +548,7 @@ body {
     .logo{
         display: none;
     }
-/* 
+/*
     .nav .mobile-logo{
         display: inline;
     } */
@@ -677,7 +677,7 @@ body {
         display: none;
     }
 
-    /* 
+    /*
 	.home-data h3 {
 		font-size: 2rem;
 	} */
