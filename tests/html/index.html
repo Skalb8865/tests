@@ -44,7 +44,7 @@
                         <a href="album.html" class="nav-link">Music</a>
                     </li>
                     <li>
-                        <a href="../html/index.html"><img src="../res/Stage Fright Logo No Background 2.png"
+                        <a href="index.html"><img src="../res/Stage Fright Logo No Background 2.png"
                                 alt=" Stage Fright Logo" class="logo"></a>
                     </li>
                     <span>
@@ -67,16 +67,18 @@
         <section class="section home" id="home">
             <div class="home-data">
                 <!-- <h3>Stage Fright</h3> -->
-                <h1>Unleash<br />Your <span>Inner</span><br />Rock<span>!</span>
+                <h1 data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="100" data-aos-offset="0">
+                    Unleash<br />Your Inner<br />Rock!
+                    <hr>
                     <h1>
             </div>
         </section>
 
-        <div class="member" id="member" data-aos="fade-up">
-            <h1>Our Members</h1>
+        <div class="member" id="member">
+            <h1 data-aos="fade-up">Our Members</h1>
             <div class="member-wrapper">
 
-                <div class="member-cards">
+                <div class="member-cards" data-aos="fade-up">
                     <img src="../res/Aidien.png" alt="Aidien" />
                     <div class="overlay">
                         <h2>Aidien Gooden</h2>
@@ -85,7 +87,7 @@
                     </div>
                 </div>
 
-                <div class="member-cards">
+                <div class="member-cards" data-aos="fade-up">
                     <img src="../res/Sean.png" alt="Sean" />
                     <div class="overlay">
                         <h2>Sean Kalb</h2>
@@ -94,7 +96,7 @@
                     </div>
                 </div>
 
-                <div class="member-cards">
+                <div class="member-cards" data-aos="fade-up">
                     <img src="../res/Jabari.png" alt="Jabari" />
                     <div class="overlay">
                         <h2>Jabari Hill</h2>
@@ -103,7 +105,7 @@
                     </div>
                 </div>
 
-                <div class="member-cards">
+                <div class="member-cards" data-aos="fade-up">
                     <img src="../res/Gabe.png" alt="Gabe" />
                     <div class="overlay">
                         <h2>Gabe Zeigler</h2>
@@ -114,9 +116,6 @@
             </div>
         </div>
 
-
-        <!-- https://elfsight.com/event-calendar-widget/?utm_source=websites&utm_medium=clients&utm_content=events-calendar&utm_term=127.0.0.1&utm_campaign=free-widget -->
-
         <section class="section albums" id="albums">
             <h2 class="section-title">Albums</h2>
             <!-- Swiper -->
@@ -124,9 +123,9 @@
 
         </section>
 
-        <section class="section merch" id="merch">
+        <section class="section merch" id="merch" data-aos="fade-zoom-in" data-aos-easing="ease-in-back">
             <h2 class="section-title">Merch</h2>
-            <div class="swiper mySwiper" data-aos="zoom-in-up">
+            <div class="swiper mySwiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide" data-swiper-autoplay="2000">
                         <img src="../res/Gabe.png" alt="">
@@ -234,7 +233,6 @@
                     spaceBetween: 20,
                     loop: false,
                     speed: 700,
-                    grabCursor: true,
                     autoplay: {
                         delay: 2000,
                         disableOnInteraction: false,

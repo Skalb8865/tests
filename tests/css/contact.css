@@ -1,29 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 
-:root {
-    --basically-black: #0a0a0a;
-
-    --primary: #DC0000;
-	--primary-dark: #850000;
-
-
-    --light-grey: #BDC4D0;
-    --grey: grey;
-    --dark-grey: #555756;
-
-    --background-light: #F3F4F8;
-    --background-dark: #2F3032;
-    --accent: #e5e4ea;
-
-
-    --font-lightest: #fff;
-    --font-light: #abaab4;
-    --font-dark: #333;
-    --font-darkest: #0a0a0a;
-
-}
-
-.contact-page{
+.contact-page {
     height: 90dvh;
     padding: 0px 0px 0px 0px;
     display: flex;
@@ -43,13 +20,13 @@
     text-align: center;
 }
 
-.contact-header{
+.contact-header {
     font-weight: 700;
     font-size: 35px;
     margin-bottom: 20px;
 }
 
-.contact-form form input, 
+.contact-form form input,
 .contact-form form textarea {
     width: 100%;
     padding: 10px;
@@ -72,7 +49,7 @@
     transition: 0.5s ease;
 }
 
-.contact-form form button:hover{
+.contact-form form button:hover {
     background-color: var(--primary-dark);
     transition: 0.5s ease;
 }

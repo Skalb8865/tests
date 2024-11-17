@@ -1,10 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
 :root {
     --basically-black: #0a0a0a;
 
-    --primary: #DC0000;
-    --primary-dark: #850000;
+    --primary: #0B3BAD;
+    --primary-dark: #072a7f;
 
 
     --light-grey: #BDC4D0;
@@ -20,7 +21,6 @@
     --font-light: #abaab4;
     --font-dark: #333;
     --font-darkest: #0a0a0a;
-    --blue: #0B3BAD
 }
 
 * {
@@ -32,12 +32,8 @@
     list-style: none;
 }
 
-html {
-    scroll-behavior: smooth;
-}
-
 body {
-    font-family: 'Times New Roman', serif;
+    font-family: "Rubik";
     justify-content: center;
     align-items: center;
     overflow-x: hidden;
@@ -53,16 +49,14 @@ body {
 }
 
 .home {
-    min-height: 100dvh;
-    background-image: url(../res/Group.png);
-    -webkit-background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    min-height: 75dvh;
+    font-family: "Rubik";
 }
 
-.home,
+main {
+    background: linear-gradient(to right, #F3F4F8, #cac8cf);
+}
+
 .band,
 .albums,
 .merch,
@@ -73,31 +67,7 @@ body {
     min-height: 100dvh;
 }
 
-.album {
-    /* background-color: var(--background-light); */
-    background-image: url(../res/Group.png);
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.band,
-
-.member,
-.founding,
-.tours {
-    background: var(--background-light);
-}
-
-.albums,
-.tour,
-.members {
-    background: var(--accent);
-}
-
 .merch {
-    background: var(--background-light);
     padding: 25px 25px 25px 25px;
 }
 
@@ -163,33 +133,6 @@ body {
     transition: color 0.5s ease;
 }
 
-/*========= Band Page Start ==========*/
-/*====================================*/
-.history {
-    padding: 25px;
-    background-color: var(--accent);
-
-}
-
-.band-header {
-    text-align: center;
-    font-size: 30px;
-    font-weight: 600px;
-}
-
-.band-history h3 {
-    margin-top: 1.5rem;
-}
-
-.band-history p {
-    padding-top: 3px;
-
-    padding-bottom: 15px;
-}
-
-/*============= Band Page End ===============*/
-/*===========================================*/
-
 
 /* =========== Home Section Start =========== */
 /* =========================================== */
@@ -204,16 +147,24 @@ body {
 }
 
 .home-data h1 {
-    font-size: 2.8rem;
-    font-weight: 700;
-    line-height: 3.5rem;
-    padding-top: 250px;
+    font-size: 4.5rem;
+    font-weight: 800;
+    padding-top: 205px;
     text-transform: uppercase;
-    color: var(--font-lightest);
+    background: linear-gradient(to right, #0B3BAD, #16347d);
+    background-clip: text;
+    color: transparent !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.home-data h1 span {
-    color: var(--primary);
+.home-data h1 hr {
+    border: none;
+    height: 9px;
+    width: 50%;
+    border-radius: 10px;
+    background: var(--primary);
 }
 
 /* =========== Home Section End =========== */
@@ -224,7 +175,7 @@ body {
 /* =========== Member Section Start =========== */
 /* ============================================ */
 .member {
-    padding: 100px 0px 100px 0px;
+    padding: 230px 0px 100px 0px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -235,7 +186,7 @@ body {
 }
 
 .member h1 {
-    font-weight: 600;
+    font-weight: 800;
     font-size: 50px;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -300,32 +251,34 @@ body {
 
 .member-cards .overlay h2 {
     font-weight: 800;
+    overflow: hidden;
     margin: 50% 0px 0px 0px;
-    font-size: 30px;
+    font-size: 35px;
     letter-spacing: 2px;
     color: var(--font-lightest);
     text-align: center;
 }
 
 .member-cards .overlay p {
-    font-weight: 600;
-    margin: 0px 0px 5px 0px;
-    font-size: 14px;
+    font-weight: 500;
+    overflow: hidden;
+    margin: 10px 0px 185px 0px;
+    font-size: 18px;
     letter-spacing: 1px;
     color: var(--font-lightest);
     text-align: center;
 }
 
 .member-cards .overlay a {
-    margin: 10px 0px 65px 0px;
+    margin: 10px 0px 150px 0px;
     color: var(--font-lightest);
     text-decoration: none;
-    font-size: 14px;
+    font-size: 14 px;
     background: var(--primary);
     border-radius: 5px;
     text-align: center;
     padding: 5px 15px;
-    transition: 0.45s ease;
+    transition: 0.4s;
 }
 
 /* Changes the height of the overlay making it rise until it hits whatever the height is set at. */
@@ -336,7 +289,7 @@ body {
 
 .member-cards a:hover {
     transform: scale(1.1);
-    transition: 0.45s ease;
+    transition: 0.4s;
     background-color: var(--primary-dark);
 }
 
@@ -355,27 +308,28 @@ body {
     width: 35px;
     color: var(--primary);
     background-color: var(--primary);
+    padding: 3px;
     margin-bottom: 30px;
     border: none;
-    border-top: 5px solid var(--primary);
     color: #333;
 }
 
 .icon {
     color: black;
     cursor: pointer;
+    transition: 0.5s;
 }
 
 .icon a {
     text-decoration: none;
-    color: var(--basically-black);
+    color: black;
 }
 
 .button {
     display: inline-block;
     width: 60px;
     height: 60px;
-    background-color: var(--accent);
+    background: linear-gradient(to left, #F3F4F8, #cac8cf);
     border-radius: 50px;
     line-height: 60px;
     text-align: center;
@@ -591,11 +545,9 @@ body {
     color: #a5a5a5;
     font-weight: 600;
     transition: 0.3s;
-}
-
-.nav-link:hover {
-    color: #fff;
-    font-weight: 600;
+    position: relative;
+    padding-bottom: 5px;
+    /* Add some padding to create space for the border */
 }
 
 .nav-close {
@@ -613,9 +565,12 @@ body {
 
 /* Active Link ============================== */
 .active-link {
-    position: relative;
-    color: #fff;
+    font-size: 1.5rem;
+    color: #a5a5a5;
     font-weight: 600;
+    transition: 0.3s;
+    position: relative;
+    padding-bottom: 5px;
 }
 
 .active-link::before {
@@ -632,8 +587,8 @@ body {
 
 /* CHANGE THE BACKGROUND ON SCROLL ==================== */
 .scroll-header {
-    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
-    background: #fff;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+    background: #F3F4F8;
 }
 
 
@@ -668,12 +623,33 @@ body {
         color: #000;
     }
 
+    .nav-link::after {
+        content: '';
+        position: absolute;
+        width: 0;
+        height: 3px;
+        background: var(--primary);
+        left: 50%;
+        bottom: 0;
+        transition: all 0.3s;
+        transform: translateX(-50%);
+        border-radius: 10px;
+    }
+
+    .nav-link:hover::after {
+        width: 100%;
+    }
+
     .nav-link:hover {
-        color: var(--primary);
+        background: linear-gradient(to right, #0B3BAD, #16347d);
+        background-clip: text;
+        color: transparent !important;
     }
 
     .active-link {
-        color: var(--primary);
+        background: linear-gradient(to right, #0B3BAD, #16347d);
+        background-clip: text;
+        color: transparent !important;
     }
 
     .active-link::before {
@@ -691,12 +667,6 @@ body {
 	.home-data h3 {
 		font-size: 2rem;
 	} */
-
-    .home-data h1 {
-        font-size: 5.5rem;
-        line-height: 6rem;
-        font-weight: 700;
-    }
 }
 
 
@@ -707,10 +677,5 @@ body {
 
     .home-data h3 {
         font-size: 1.3rem;
-    }
-
-    .home-data h1 {
-        font-size: 4rem;
-        line-height: 5rem;
     }
 }
