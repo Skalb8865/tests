@@ -45,7 +45,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: var(--background-light);
 }
 
 .albums-page h1 {
@@ -107,7 +106,9 @@
 }
 
 .main_content h1 {
-    color: var(--font-darkest);
+    background: linear-gradient(to right, #0B3BAD, #16347d);
+    background-clip: text;
+    color: transparent !important;
     font-size: 4rem;
     margin-bottom: 32px;
     text-transform: uppercase;
@@ -137,7 +138,7 @@
     cursor: pointer;
 }
 
-.play-icon.fa-circle-pause {
+.play-icon .fa-circle-pause {
     cursor: pointer;
     transition: 0.3s ease;
 }
@@ -145,13 +146,11 @@
 .play-icon:hover {
     color: var(--primary);
     transition: 0.3s ease;
-    opacity: 75%;
 }
 
-.play-icon.fa-circle-pause:hover {
+.play-icon .fa-circle-pause:hover {
     color: var(--primary);
     transition: 0.3s ease;
-    opacity: 75%;
 }
 
 /* @media screen and (max-width:1440px) {
