@@ -49,13 +49,6 @@ body {
 
 .home {
     min-height: 100dvh;
-    background-image: url(../res/Group.png);
-    -webkit-background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 75dvh;
     font-family: "Rubik";
 }
 
@@ -63,6 +56,7 @@ main {
     background: #F3F4F8;
 }
 
+.home,
 .band,
 .albums,
 .merch,
@@ -623,8 +617,8 @@ main {
     }
 
     .nav-link:hover::after {
-       width: 100%;
-   }
+        width: 100%;
+    }
 
     .nav-link:hover {
         color: var(--primary);
