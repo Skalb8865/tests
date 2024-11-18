@@ -66,6 +66,17 @@
     object-fit: cover;
 }
 
+.tour-cards a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 3px;
+    text-transform: uppercase;
+    color: #585858;
+    font-family: 'Roboto', sans-serif;
+}
+
 /* Increase the size of the cards when you hover over them */
 .tour-cards:hover {
     transform: scale(1.025);
@@ -74,65 +85,6 @@
 }
 
 /* sets the height to zero so that the overlay doesn't show up */
-#form1 {
-    background: black;
-    display: none;
-}
-
-/* .container {
-    padding: 80px 120px;
-} */
-
-.bg-1 {
-    background: #2d2d30;
-    color: #bdbdbd;
-}
-
-.bg-1 h3 {
-    color: #fff;
-}
-
-.bg-1 p {
-    font-style: italic;
-}
-
-.btn {
-    padding: 10px 20px;
-    background-color: #333;
-    color: #f1f1f1;
-    border-radius: 0;
-    transition: .2s;
-}
-
-.btn:hover,
-.btn:focus {
-    border: 1px solid #333;
-    background-color: #fff;
-    color: #000;
-}
-
-.modal-header,
-h4,
-.close {
-    background-color: #333;
-    color: #fff !important;
-    text-align: center;
-    font-size: 30px;
-}
-
-.modal-header,
-.modal-body {
-    padding: 40px 50px;
-}
-
-.form-control {
-    border-radius: 0;
-}
-
-textarea {
-    resize: none;
-}
-
 
 /* =========== Member Section End =========== */
 /* =========================================== */
