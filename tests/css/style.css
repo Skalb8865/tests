@@ -105,7 +105,8 @@ main {
 .logo {
     width: 170px;
     height: 150px;
-    padding: 0px 0px 5px 0px;
+    padding: 0px 0px 5px 10px;
+
 }
 
 .nav-item {
@@ -553,6 +554,7 @@ main {
     transition: 0.3s;
     position: relative;
     padding-bottom: 5px;
+    color: var(--primary);
 }
 
 .active-link::before {
@@ -565,6 +567,10 @@ main {
     height: 5px;
     background: var(--primary);
     border-radius: 50px;
+}
+
+.show-menu .nav-link:hover {
+    color: var(--primary-dark);
 }
 
 /* CHANGE THE BACKGROUND ON SCROLL ==================== */
@@ -610,8 +616,8 @@ main {
     }
 
     .nav-link:hover::after {
-        width: 100%;
-    }
+       width: 100%;
+   }
 
     .nav-link:hover {
         color: var(--primary);

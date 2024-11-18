@@ -34,10 +34,6 @@
     height: 425px;
     margin: 10px;
     transition: 0.5s ease;
-    background-image: url(../res/Columbus-Ohio-Skyline-Mural-Wallpaper.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.6);
 }
 
@@ -78,6 +74,10 @@
 }
 
 /* sets the height to zero so that the overlay doesn't show up */
+#form1 {
+    background: black;
+    display: none;
+}
 
 
 /* =========== Member Section End =========== */

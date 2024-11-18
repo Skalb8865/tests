@@ -1,5 +1,5 @@
 function changeButton(clickedIcon) {
-    // Get all play icons
+    // Get all the play icons
     const allIcons = document.querySelectorAll('.play-icon');
 
     // Reset all icons to play state

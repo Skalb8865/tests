@@ -22,10 +22,6 @@
     margin: 0 auto;
 }
 
-.band-wrapper {
-    display: flex;
-}
-
 .about-info {
     margin: 2rem 2rem;
     display: flex;
@@ -74,6 +70,10 @@ button:hover {
     transition: 0.4s ease;
 }
 
+.band-wrapper {
+    display: flex;
+    gap: 5rem;
+}
 
 .band-history {
     padding: 25px;
@@ -92,13 +92,13 @@ button:hover {
 
 .band-history h1 {
     margin-top: 1.5rem;
-
+    color: var(--font-darkest);
 }
 
 .band-history p {
     padding-top: 3px;
-
     padding-bottom: 15px;
+    color: var(--font-dark);
 }
 
 
