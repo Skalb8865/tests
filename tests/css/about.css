@@ -70,11 +70,6 @@ button:hover {
     transition: 0.4s ease;
 }
 
-.band-wrapper {
-    display: flex;
-    gap: 5rem;
-}
-
 .band-history {
     padding: 25px;
 }
