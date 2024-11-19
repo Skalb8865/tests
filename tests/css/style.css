@@ -77,7 +77,6 @@ main {
 
 
 
-
 /* HEADER SECTION ========================== */
 .header {
     width: 100%;
@@ -128,7 +127,6 @@ main {
     color: var(--primary);
     transition: color 0.5s ease;
 }
-
 
 /* =========== Home Section Start =========== */
 /* =========================================== */
