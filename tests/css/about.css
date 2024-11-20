@@ -71,7 +71,7 @@ button:hover {
 }
 
 .band-history {
-    padding: 25px;
+    padding: 10px;
 }
 
 .band-header {
@@ -86,12 +86,12 @@ button:hover {
 }
 
 .band-history h1 {
-    margin-top: 1.5rem;
+    margin-top: 2rem;
     color: var(--font-darkest);
 }
 
 .band-history p {
-    padding-top: 3px;
+    padding-top: 2px;
     padding-bottom: 15px;
     color: var(--font-dark);
 }
