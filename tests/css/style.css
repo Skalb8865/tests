@@ -29,6 +29,7 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -37,6 +38,7 @@ body {
     align-items: center;
     overflow-x: hidden;
     /* Hide horizontal scrollbar */
+    user-select: none;
 }
 
 
@@ -111,10 +113,12 @@ main {
     width: 170px;
     height: 150px;
     padding: 0px 0px 5px 0px;
+    user-select: none;
 }
 
 .nav-item {
     margin: 0px 0px 1.5rem 0px;
+    user-select: none;
 }
 
 .nav-open {
