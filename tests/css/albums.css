@@ -106,7 +106,7 @@
 }
 
 .main_content h1 {
-    background: linear-gradient(to right, #0B3BAD, #16347d);
+    background: linear-gradient(to right, #DC0000, #850000);
     background-clip: text;
     color: transparent !important;
     font-size: 4rem;
