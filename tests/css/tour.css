@@ -26,7 +26,6 @@
 .tours #tours-heading {
     font-weight: 600;
     font-size: 50px;
-    letter-spacing: 2px;
     color: var(--background-dark);
     text-align: center;
     margin: 0px 0px 3rem 0px;

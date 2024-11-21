@@ -50,7 +50,6 @@
 .albums-page h1 {
     font-weight: 600;
     font-size: 50px;
-    letter-spacing: 2px;
     color: var(--background-dark);
     text-align: center;
     margin: 0px 0px 3rem 0px;
@@ -70,39 +69,32 @@
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    height: 90%;
+    height: 100%;
     z-index: 1;
     width: 100%;
-    padding: 90px 50px 166px 50px;
+    padding: 100px 50px 166px 50px;
     text-transform: uppercase;
     background: var(--background-light);
 }
 
 .main_content {
     color: #fff;
-    width: 100%;
 }
 
 .main_img--container {
-    text-align: center;
-    font-size: 14rem;
     justify-self: center;
-
 }
 
 .main_img--card {
-    margin: 10px;
-    height: 450px;
-    width: 450px;
-    border-radius: 7px;
+    height: 400px;
+    width: 400px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    color: #fff;
 }
 
 .main_img--card img {
-    border-radius: 10px;
+    border-radius: 2px;
 }
 
 .main_content h1 {
@@ -114,26 +106,31 @@
     text-transform: uppercase;
 }
 
+.songs {
+    padding-bottom: 20px;
+}
 
 .Soundtrack {
     padding-bottom: 10px;
     margin-top: 2px;
-    font-size: 1.5rem;
+    font-size: 16px;
     font-weight: 600;
     color: black;
 }
 
-.songs {
-    padding-bottom: 20px;
-}
 
 .Soundtrack span {
     border-bottom: solid 2px black;
     padding: 5px;
 }
 
+.Soundtrack .song-length {
+    padding-left: 75px;
+}
+
 .play-icon {
     padding: 10px;
+    font-size: 21px;
     transition: 0.3s ease;
     cursor: pointer;
 }
@@ -235,5 +232,15 @@
 
     .main_content p {
         margin-top: 2rem;
+    }
+
+    .albums-cards {
+        position: relative;
+        border-radius: 10px;
+        width: 300px;
+        height: 300px;
+        margin: 10px;
+        transition: 1.15s ease;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.25), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
     }
 }
