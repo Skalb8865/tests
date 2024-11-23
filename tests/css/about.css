@@ -10,7 +10,7 @@
     font-size: 50px;
     color: var(--background-dark);
     text-align: center;
-    margin: 0px 0px 3rem 0px;
+    margin: 0 0 3rem 0;
     padding-bottom: 18px;
 }
 
@@ -79,7 +79,7 @@ button:hover {
     text-transform: uppercase;
     color: var(--background-dark);
     text-align: center;
-    margin: 0px 0px 3rem 0px;
+    margin: 0 0 3rem 0;
     padding-bottom: 18px;
 }
 

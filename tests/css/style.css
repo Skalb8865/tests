@@ -28,7 +28,6 @@
 * {
     margin: 0;
     padding: 0;
-    -webkit-box-sizing: border-box;
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
@@ -95,7 +94,7 @@ main {
     top: 0;
     left: 0;
     transition: all 0.3s;
-    padding: 8px 0px 8px 0px;
+    padding: 8px 0 8px 0;
 }
 
 .nav {
@@ -117,12 +116,12 @@ main {
 .logo {
     width: 170px;
     height: 150px;
-    padding: 0px 0px 5px 0px;
+    padding: 0 0 5px 0;
     user-select: none;
 }
 
 .nav-item {
-    margin: 0px 0px 1.5rem 0px;
+    margin: 0 0 1.5rem 0;
     user-select: none;
 }
 
@@ -179,7 +178,7 @@ main {
 /* =========== Member Section Start =========== */
 /* ============================================ */
 .member {
-    padding: 230px 0px 100px 0px;
+    padding: 230px 0 100px 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -193,7 +192,7 @@ main {
     text-transform: uppercase;
     color: var(--background-dark);
     text-align: center;
-    margin: 0px 0px 3rem 0px;
+    margin: 0 0 3rem 0;
     border-bottom: solid var(--primary);
     border-radius: 15px;
     border-width: 4px;
@@ -244,7 +243,7 @@ main {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 0px 40px;
+    padding: 0 40px;
     text-align: center;
     font-size: 14px;
     transition: 1.15s ease;
@@ -253,7 +252,7 @@ main {
 .member-cards .overlay h2 {
     font-weight: 800;
     overflow: hidden;
-    margin: 50% 0px 0px 0px;
+    margin: 50% 0 0 0;
     font-size: 35px;
     color: var(--font-lightest);
     text-align: center;
@@ -262,17 +261,17 @@ main {
 .member-cards .overlay p {
     font-weight: 500;
     overflow: hidden;
-    margin: 10px 0px 185px 0px;
+    margin: 10px 0 185px 0;
     font-size: 18px;
     color: var(--font-lightest);
     text-align: center;
 }
 
 .member-cards .overlay a {
-    margin: 10px 0px 150px 0px;
+    margin: 10px 0 150px 0;
     color: var(--font-lightest);
     text-decoration: none;
-    font-size: 14 px;
+    font-size: 14px;
     background: var(--primary);
     border-radius: 5px;
     text-align: center;
@@ -310,7 +309,6 @@ main {
     margin-bottom: 30px;
     border: none;
     border-top: 5px solid var(--primary);
-    color: #333;
 }
 
 .icon {
@@ -331,13 +329,13 @@ main {
     border-radius: 50px;
     line-height: 60px;
     text-align: center;
-    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
     transition: 0.7s;
     text-decoration: none;
 }
 
 .wrapper {
-    padding: 10px 0px 10px 0px;
+    padding: 10px 0 10px 0;
 }
 
 .wrapper:hover {
@@ -357,28 +355,28 @@ main {
 }
 
 .wrapper .button:nth-child(1):hover .icon {
-    background: -webkit-gradient(linear, left top, left bottom, from(#4267B2), to(#4267B2));
+    background: linear-gradient(to bottom, #4267B2, #4267B2);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .wrapper .button:nth-child(2):hover .icon {
-    background: -webkit-gradient(linear, left top, left bottom, from(#f9ce34), to(#6228d7));
+    background: linear-gradient(to bottom, #f9ce34, #6228d7);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .wrapper .button:nth-child(3):hover .icon {
-    background: -webkit-gradient(linear, left top, left bottom, from(#555756), to(#BDC4D0));
+    background: linear-gradient(to bottom, #555756, #BDC4D0);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .wrapper .button:nth-child(4):hover .icon {
-    background: -webkit-gradient(linear, left top, left bottom, from(#FF0000), to(#FF0000));
+    background: linear-gradient(to bottom, #FF0000, #FF0000);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -570,7 +568,6 @@ main {
 /* Active Link ============================== */
 .active-link {
     font-size: 1.5rem;
-    color: #a5a5a5;
     font-weight: 600;
     transition: 0.3s;
     position: relative;
@@ -614,8 +611,7 @@ main {
     }
 
     .nav-item {
-        margin: 0px 2rem 0px 2rem;
-        margin-bottom: 0;
+        margin: 0 2rem 0 2rem;
     }
 
     .nav-link {
