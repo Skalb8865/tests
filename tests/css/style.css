@@ -212,7 +212,7 @@ main {
     width: 410px;
     height: 425px;
     margin: 10px;
-    transition: 1.15s ease;
+    transition: .35s ease;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.6);
 }
 
@@ -283,7 +283,7 @@ main {
 /* Changes the height of the overlay making it rise until it hits whatever the height is set at. */
 .member-cards:hover .overlay {
     height: 100%;
-    transition: 1.25s ease;
+    transition: .85s ease;
 }
 
 .member-cards a:hover {
