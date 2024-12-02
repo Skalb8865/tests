@@ -10,10 +10,11 @@
     <!-- CSS LINK =============================== -->
     <link rel="stylesheet" href="../css/style.css" />
     <link rel="stylesheet" href="../css/albums.css">
+    <link rel="stylesheet" href="../css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="../css/swiper.css">
 
     <!-- BOXICONS =================================== -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" />
-
     <!-- AOS =================================== -->
     <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
 
@@ -70,7 +71,7 @@
                     </p>
                     <p class="Soundtrack" data-aos="fade-left"><i class="fa-regular fa-circle-play play-icon"
                             onclick="changeButton(this)"> </i>2.
-                        <span>Crank Up the Chaos - 5:18</span>
+                        <span>Crank Up the Chaos - 2:18</span>
                     </p>
                     <p class="Soundtrack" data-aos="fade-left"><i class="fa-regular fa-circle-play play-icon"
                             onclick="changeButton(this)"></i>3.
@@ -78,15 +79,15 @@
                     </p>
                     <p class="Soundtrack" data-aos="fade-left"><i class="fa-regular fa-circle-play play-icon"
                             onclick="changeButton(this)"></i>4.
-                        <span>Power Surge - 4:51</span>
+                        <span>Power Surge - 3:11</span>
                     </p>
                     <p class="Soundtrack" data-aos="fade-left"><i class="fa-regular fa-circle-play play-icon"
                             onclick="changeButton(this)"></i>5.
-                        <span>Fire Within - 6:37</span>
+                        <span>Fire Within - 2:37</span>
                     </p>
                     <p class="Soundtrack" data-aos="fade-left"><i class="fa-regular fa-circle-play play-icon"
                             onclick="changeButton(this)"></i>6.
-                        <span>Rebel's Rise - 7:03</span>
+                        <span>Rebel's Rise - 2:03</span>
                     </p>
                     <p class="Soundtrack" data-aos="fade-left"><i class="fa-regular fa-circle-play play-icon"
                             onclick="changeButton(this)"></i>7.
@@ -94,20 +95,24 @@
                     </p>
                     <p class="Soundtrack" data-aos="fade-left"><i class="fa-regular fa-circle-play play-icon"
                             onclick="changeButton(this)"></i>8.
-                        <span>Crow Carnage 1 - 4:09</span>
+                        <span>Crow Carnage 1 - 3:09</span>
                     </p>
                     <p class="Soundtrack" data-aos="fade-left"><i class="fa-regular fa-circle-play play-icon"
                             onclick="changeButton(this)"></i>9.
-                        <span>Amped Up - 5:45</span>
+                        <span>Amped Up - 1:45</span>
                     </p>
                     <p class="Soundtrack" data-aos="fade-left"><i class="fa-regular fa-circle-play play-icon"
                             onclick="changeButton(this)"></i>10. <span>Burning Bridges - 3:55</span></p>
                     <p class="Soundtrack" data-aos="fade-left"><i class="fa-regular fa-circle-play play-icon"
-                            onclick="changeButton(this)"></i>11. <span>Thunder in a Bottle - 4:14</span></p>
+                            onclick="changeButton(this)"></i>11. <span>Thunder - 2:14</span></p>
                     <p class="Soundtrack" data-aos="fade-left"><i class="fa-regular fa-circle-play play-icon"
-                            onclick="changeButton(this)"></i>12. <span>Wildfire Rush - 5:31</span></p>
+                            onclick="changeButton(this)"></i>12. <span>Wildfire Rush - 3:31</span></p>
                 </div>
             </div>
+        </div>
+        <div class="OtherAlbums">
+            <a href="album2.html"><img src="../res/Acantha (1).png" alt=""></a>
+            <a href="album3.html"><img src="../res/NYX.png" alt=""></a>
         </div>
     </main>
     <footer>
@@ -175,6 +180,52 @@
         <script>
             AOS.init();
         </script>
+          <!-- Font Awesome Js =============================== -->
+          <script src="https://kit.fontawesome.com/c4fc73ac8f.js" crossorigin="anonymous"></script>
+          <!-- JS LINKS =============================== -->
+          <script src="../js/index.js"></script>
+          <!-- Swiper JS -->
+          <script src="../js/swiper-bundle.min.js"></script>
+          <!-- JS =============================== -->
+          <script>
+              var swiper = new Swiper(".mySwiper", {
+                  slidesPerView: 3,
+                  spaceBetween: 20,
+                  loop: true,
+                  speed: 700,
+                  grabCursor: true,
+                  pagination: {
+                      el: ".swiper-pagination",
+                      clickable: true,
+                      dynamicBullets: true,
+                  },
+                  navigation: {
+                      nextEl: ".swiper-button-next",
+                      prevEl: ".swiper-button-prev",
+                  },
+  
+                  breakpoints: {
+                      250: {
+                          slidesPerView: 1,
+                      },
+                      500: {
+                          slidesPerView: 1,
+                      },
+                      877: {
+                          slidesPerView: 2,
+                      },
+                      1307: {
+                          slidesPerView: 3,
+                      },
+                      1737: {
+                          slidesPerView: 4,
+                      },
+                      2500: {
+                          slidesPerView: 5,
+                      },
+                  },
+              });
+          </script>
     </footer>
 </body>
 
