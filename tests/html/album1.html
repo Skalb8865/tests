@@ -10,8 +10,6 @@
     <!-- CSS LINK =============================== -->
     <link rel="stylesheet" href="../css/style.css" />
     <link rel="stylesheet" href="../css/albums.css">
-    <link rel="stylesheet" href="../css/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="../css/swiper.css">
 
     <!-- BOXICONS =================================== -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" />
@@ -110,10 +108,10 @@
                 </div>
             </div>
         </div>
-        <div class="OtherAlbums">
+        <!-- <div class="OtherAlbums">
             <a href="album2.html"><img src="../res/Acantha (1).png" alt=""></a>
             <a href="album3.html"><img src="../res/NYX.png" alt=""></a>
-        </div>
+        </div> -->
     </main>
     <footer>
         <!--FOOTER SECTION-->
@@ -184,48 +182,6 @@
         <script src="https://kit.fontawesome.com/c4fc73ac8f.js" crossorigin="anonymous"></script>
         <!-- JS LINKS =============================== -->
         <script src="../js/index.js"></script>
-        <!-- Swiper JS -->
-        <script src="../js/swiper-bundle.min.js"></script>
-        <!-- JS =============================== -->
-        <script>
-            var swiper = new Swiper(".mySwiper", {
-                slidesPerView: 3,
-                spaceBetween: 20,
-                loop: true,
-                speed: 700,
-                grabCursor: true,
-                pagination: {
-                    el: ".swiper-pagination",
-                    clickable: true,
-                    dynamicBullets: true,
-                },
-                navigation: {
-                    nextEl: ".swiper-button-next",
-                    prevEl: ".swiper-button-prev",
-                },
-
-                breakpoints: {
-                    250: {
-                        slidesPerView: 1,
-                    },
-                    500: {
-                        slidesPerView: 1,
-                    },
-                    877: {
-                        slidesPerView: 2,
-                    },
-                    1307: {
-                        slidesPerView: 3,
-                    },
-                    1737: {
-                        slidesPerView: 4,
-                    },
-                    2500: {
-                        slidesPerView: 5,
-                    },
-                },
-            });
-        </script>
     </footer>
 </body>
 

@@ -125,6 +125,10 @@
     color: black;
 }
 
+.active-song {
+    color: blue;
+}
+
 
 .Soundtrack span {
     border-bottom: solid 2px black;
