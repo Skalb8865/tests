@@ -29,8 +29,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 25px;
+    gap: 15px;
     cursor: grab;
+    flex-wrap: wrap;
 }
 
 
@@ -77,17 +78,19 @@
     grid-template-columns: 1fr 1fr;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
-    height: 100%;
-    width: 100%;
+    margin: auto;
+    height: 90%;
+    width: 87%;
     z-index: 1;
-    padding: 100px 50px 166px 50px;
+    padding: 100px 40px 144px 40px;
     text-transform: uppercase;
     background: var(--background-light);
 }
 
 .main_content {
     color: #fff;
+    justify-content: center;
+    align-items: center;
 }
 
 .main_img--container {
@@ -113,6 +116,7 @@
     font-size: 4rem;
     margin-bottom: 32px;
     text-transform: uppercase;
+    align-self: center;
 }
 
 .songs {
@@ -220,8 +224,9 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 25px;
+        gap: 5px;
         cursor: grab;
+        flex-wrap: wrap;
     }
 
 }
@@ -268,7 +273,8 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 25px;
+        gap: 5px;
         cursor: grab;
+        flex-wrap: wrap;
     }
 }
