@@ -94,6 +94,10 @@ button:hover {
     color: var(--font-dark);
 }
 
+.band-wrapper{
+    padding-bottom: 10px;
+}
+
 
 /* =========== Member Section Start =========== */
 /* ============================================ */
