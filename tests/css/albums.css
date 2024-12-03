@@ -77,8 +77,8 @@
     align-items: center;
     margin: 0 auto;
     height: 100%;
-    z-index: 1;
     width: 100%;
+    z-index: 1;
     padding: 100px 50px 166px 50px;
     text-transform: uppercase;
     background: var(--background-light);
@@ -173,6 +173,16 @@
 
     /********************************************/
     /*Responsive styling for main sections*/
+
+    .main_container {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin: 0 auto;
+        height: 85%;
+    }
 
     .main_img--container {
         display: flex;
