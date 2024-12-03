@@ -27,10 +27,12 @@
 
 .OtherAlbums {
     display: flex;
-    margin-right: auto;
-    margin-left: auto;
+    justify-content: center;
+    align-items: center;
     gap: 25px;
+    cursor: grab;
 }
+
 
 .albums-cards img {
     width: 100%;
@@ -214,6 +216,13 @@
         margin-bottom: 1.5rem;
     }
 
+    .OtherAlbums {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+        cursor: grab;
+    }
 
 }
 
@@ -254,5 +263,12 @@
         margin: 10px;
         transition: 1.15s ease;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.25), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+    }
+    .OtherAlbums {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+        cursor: grab;
     }
 }
