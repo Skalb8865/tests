@@ -116,7 +116,7 @@ main {
 .logo {
     width: 170px;
     height: 150px;
-    padding: 0 0 5px 0;
+    margin-top: 25px;
     user-select: none;
 }
 
@@ -225,7 +225,7 @@ main {
 /* Increase the size of the cards when you hover over them */
 .member-cards:hover {
     transform: scale(1.01);
-    transition: 0.5s ease;
+    transition: 0.35s ease;
     box-shadow: 0 3px 10px rgb(0 0 0 / 1);
 }
 
