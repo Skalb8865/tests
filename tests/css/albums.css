@@ -8,7 +8,6 @@
     justify-content: center;
     align-items: center;
 }
-
 .albums-wrapper {
     display: flex;
     flex-wrap: wrap;
@@ -25,14 +24,6 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.25), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
 }
 
-.OtherAlbums {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 15px;
-    cursor: grab;
-    flex-wrap: wrap;
-}
 
 
 .albums-cards img {
@@ -64,8 +55,8 @@
     text-align: center;
     margin: 0 0 3rem 0;
     border-bottom: solid var(--primary);
-    border-radius: 15px;
-    border-width: 4px;
+    border-radius: 5px;
+    border-width: 5px;
     padding-bottom: 18px;
 }
 
@@ -78,7 +69,8 @@
     grid-template-columns: 1fr 1fr;
     justify-content: center;
     align-items: center;
-    margin: auto;
+    margin-right: auto;
+    margin-left: auto;
     height: 90%;
     width: 87%;
     z-index: 1;
@@ -88,9 +80,7 @@
 }
 
 .main_content {
-    color: #fff;
-    justify-content: center;
-    align-items: center;
+    color: aliceblue;
 }
 
 .main_img--container {
@@ -106,9 +96,45 @@
 }
 
 .main_img--card img {
-    border-radius: 2px;
+    border-radius: 10px;
 }
-
+/* ===========This is for th images that link to another album================================ */
+img{
+    border-radius: 10px;
+    height: 420px;
+}
+.OtherAlbums {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    cursor: grab;
+    flex-wrap: wrap;
+    
+}
+.OtherAlbumsCards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:10%;
+    width: 10%;
+    gap: 15px;
+    margin-top: 50px;
+    margin-bottom: 200px;
+}
+.main_contentV2 h1 {
+    background: linear-gradient(to right, #DC0000, #850000);
+    background-clip: text;
+    color: transparent !important;
+    font-size: 4rem;
+    margin-bottom: 32px;
+    text-transform: uppercase;
+    align-self: center;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: auto;
+}
+/* ================================================================================================================================== */
 .main_content h1 {
     background: linear-gradient(to right, #DC0000, #850000);
     background-clip: text;
@@ -228,6 +254,41 @@
         cursor: grab;
         flex-wrap: wrap;
     }
+    img{
+        border-radius: 10px;
+        height: 420px;
+    }
+    .OtherAlbums {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        cursor: grab;
+        flex-wrap: wrap;
+        
+    }
+    .OtherAlbumsCards{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height:10%;
+        width: 10%;
+        
+        gap: 15px;
+        margin-top: 50px;
+        margin-bottom: 200px;
+    }
+    .main_contentV2 h1 {
+        background: linear-gradient(to right, #DC0000, #850000);
+        background-clip: text;
+        color: transparent !important;
+        font-size: 4rem;
+        margin-bottom: 32px;
+        text-transform: uppercase;
+        align-self: center;
+        margin-right: auto;
+        margin-left: auto;
+    }
 
 }
 
@@ -276,5 +337,40 @@
         gap: 5px;
         cursor: grab;
         flex-wrap: wrap;
+    }
+    img{
+        border-radius: 10px;
+        height: 420px;
+    }
+    .OtherAlbums {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        cursor: grab;
+        flex-wrap: wrap;
+        
+    }
+    .OtherAlbumsCards{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height:10%;
+        width: 10%;
+        
+        gap: 15px;
+        margin-top: 50px;
+        margin-bottom: 200px;
+    }
+    .main_contentV2 h1 {
+        background: linear-gradient(to right, #DC0000, #850000);
+        background-clip: text;
+        color: transparent !important;
+        font-size: 4rem;
+        margin-bottom: 32px;
+        text-transform: uppercase;
+        align-self: center;
+        margin-right: auto;
+        margin-left: auto;
     }
 }
