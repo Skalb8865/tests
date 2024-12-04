@@ -69,10 +69,9 @@
     grid-template-columns: 1fr 1fr;
     justify-content: center;
     align-items: center;
-    margin-right: auto;
-    margin-left: auto;
-    height: 100%;
-    width: 88%;
+    margin: auto;
+    height: 90%;
+    width: 87%;
     z-index: 1;
     padding: 100px 40px 144px 40px;
     text-transform: uppercase;
@@ -81,35 +80,40 @@
 
 .main_content {
     color: aliceblue;
-    padding-left: 100px;
 }
 
 .main_img--container {
     justify-self: center;
 }
-/* AIDIEN WILL DO THIS DON"T TOUCH */
 .main_img--card {
-    height: 900px;
-    width: 700px;
+    height: 1000px;
+    width: 600px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .main_img--card img {
     border-radius: 10px;
 }
+.main_content h1 {
+    background: linear-gradient(to right, #DC0000, #850000);
+    background-clip: text;
+    color: transparent !important;
+    font-size: 4rem;
+    margin-bottom: 22px;
+    text-transform: uppercase;
+    align-self: center;
+}
 /* ===========This is for th images that link to another album================================ */
 img{
     border-radius: 10px;
-    height: 420px;
 }
 .OtherAlbums {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 15px;
-    cursor: grab;
-    flex-wrap: wrap;
     
 }
 .OtherAlbumsCards{
@@ -120,7 +124,17 @@ img{
     width: 10%;
     gap: 15px;
     margin-top: 50px;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
+}
+.H1Container{
+    align-self: center;
+    margin-right: auto;
+    margin-left: auto;
+    height:10%;
+    width: 800px;
+    flex-wrap: wrap;
+    cursor: grab;
+
 }
 .main_contentV2 h1 {
     background: linear-gradient(to right, #DC0000, #850000);
@@ -129,21 +143,10 @@ img{
     font-size: 4rem;
     margin-bottom: 32px;
     text-transform: uppercase;
-    align-self: center;
-    margin-right: auto;
-    margin-left: auto;
     padding-right: auto;
+    flex-wrap: wrap;
 }
 /* ================================================================================================================================== */
-.main_content h1 {
-    background: linear-gradient(to right, #DC0000, #850000);
-    background-clip: text;
-    color: transparent !important;
-    font-size: 4rem;
-    margin-bottom: 32px;
-    text-transform: uppercase;
-    align-self: center;
-}
 
 .songs {
     padding-bottom: 20px;
@@ -208,35 +211,42 @@ img{
 
     .main_container {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
         align-items: center;
         justify-content: center;
-        width: 100%;
+        width: 90%;
         margin: 0 auto;
         height: 85%;
+        margin-right: auto;
+        margin-left: auto;
     }
 
     .main_img--container {
         display: flex;
         justify-content: center;
         /* padding-left: 0px; */
+        margin-right: auto;
+        margin-left: 180px;
+       
     }
 
     .main_img--card {
-        height: 350px;
-        width: 350px;
+        height: 250px;
+        width: 250px;
+        margin-top: 170px;
+        
     }
 
     .main_content {
         text-align: center;
         margin-bottom: 3rem;
         padding-top: 20px;
-        padding-left: 100px;
     }
 
     .main_content h1 {
-        font-size: 3rem;
-        margin-top: 2rem;
+        font-size: 4rem;
+        margin-top: 8rem;
+
     }
 
     .main_content h2 {
@@ -247,17 +257,11 @@ img{
         margin-bottom: 1.5rem;
     }
 
-    .OtherAlbums {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 5px;
-        cursor: grab;
-        flex-wrap: wrap;
-    }
+   
     img{
         border-radius: 10px;
-        height: 420px;
+        height:450px;
+        width: 450px;
     }
     .OtherAlbums {
         display: flex;
@@ -274,23 +278,32 @@ img{
         align-items: center;
         height:10%;
         width: 10%;
-        
         gap: 15px;
         margin-top: 50px;
         margin-bottom: 200px;
+        flex-wrap: wrap;
+    }
+    
+    
+    .H1Container{
+        align-self: center;
+        margin-right: auto;
+        margin-left: auto;
+        height:10%;
+        width: 500px;
+        flex-wrap: wrap;
+    
     }
     .main_contentV2 h1 {
         background: linear-gradient(to right, #DC0000, #850000);
         background-clip: text;
         color: transparent !important;
         font-size: 4rem;
-        margin-bottom: 32px;
+        margin-bottom: 22px;
         text-transform: uppercase;
-        align-self: center;
-        margin-right: auto;
-        margin-left: auto;
+        padding-right: auto;
+        flex-wrap: wrap;
     }
-
 }
 
 /********************************************/
@@ -298,6 +311,9 @@ img{
 @media screen and (max-width: 600px) {
     .main_img--container {
         padding-left: 0;
+        margin-right: 130px;
+        margin-left: 35px;
+        
     }
 
     .main_img--card {
@@ -306,11 +322,10 @@ img{
     }
 
     .main_content {
-        padding-top: 20px;
-        padding-left: 100px;
+        padding-top: 10px;
     }
     .main_content h1 {
-        font-size: 2rem;
+        font-size: 3rem;
         margin-top: 3rem;
     }
 
@@ -331,26 +346,11 @@ img{
         transition: 1.15s ease;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.25), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
     }
-    .OtherAlbums {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 5px;
-        cursor: grab;
-        flex-wrap: wrap;
-    }
+ 
     img{
         border-radius: 10px;
-        height: 420px;
-    }
-    .OtherAlbums {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 15px;
-        cursor: grab;
-        flex-wrap: wrap;
-        
+        height:350px;
+        width: 350px;
     }
     .OtherAlbumsCards{
         display: flex;
@@ -358,20 +358,27 @@ img{
         align-items: center;
         height:10%;
         width: 10%;
-        
         gap: 15px;
         margin-top: 50px;
         margin-bottom: 200px;
+        flex-wrap: wrap;
+    }
+    .H1Container{
+        align-self: center;
+        margin-right: auto;
+        margin-left: auto;
+        height:10%;
+        width: 300px;
+    
     }
     .main_contentV2 h1 {
         background: linear-gradient(to right, #DC0000, #850000);
         background-clip: text;
         color: transparent !important;
         font-size: 4rem;
-        margin-bottom: 32px;
+        margin-bottom: 22px;
         text-transform: uppercase;
-        align-self: center;
-        margin-right: auto;
-        margin-left: auto;
+        padding-right: auto;
+        flex-wrap: wrap;
     }
 }
