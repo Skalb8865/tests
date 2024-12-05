@@ -86,8 +86,7 @@
     justify-self: center;
 }
 .main_img--card {
-    height: 1000px;
-    width: 600px;
+    width: 500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
