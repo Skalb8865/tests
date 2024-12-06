@@ -133,6 +133,15 @@ main {
     transition: color 0.5s ease;
 }
 
+.bx {
+    transition: color 0.5s ease;
+}
+
+.bx:hover {
+    color: grey;
+    transition: color 0.5s ease;
+}
+
 .nav-open:hover {
     color: var(--primary);
     transition: color 0.5s ease;
@@ -254,7 +263,6 @@ main {
 
 .member-cards .overlay h2 {
     font-weight: 800;
-    overflow: hidden;
     margin: 50% 0 0 0;
     font-size: 35px;
     color: var(--font-lightest);
@@ -263,7 +271,6 @@ main {
 
 .member-cards .overlay p {
     font-weight: 500;
-    overflow: hidden;
     margin: 10px 0 185px 0;
     font-size: 18px;
     color: var(--font-lightest);
@@ -670,5 +677,11 @@ main {
 
     .home-data h3 {
         font-size: 1.3rem;
+    }
+
+    .member-cards {
+        transition: 0.5s ease;
+        width: 350px;
+        height: 350px;
     }
 }
