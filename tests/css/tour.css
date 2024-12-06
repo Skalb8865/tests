@@ -43,7 +43,7 @@
 
 .tour-cards {
     width: 410px;
-    height: 410px;
+    height: 500px;
     margin: 10px;
     border-radius: 8px;
     overflow: hidden;
@@ -71,10 +71,12 @@
 
 .tour-cards h1 {
     text-align: center;
+    font-size: 30px;
 }
 
 .tour-cards p {
     font-weight: 500;
+    font-size: 20px;
 }
 
 
