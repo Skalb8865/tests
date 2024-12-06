@@ -55,12 +55,11 @@ body {
 }
 
 .home {
-    min-height: 100dvh;
+    min-height: 70dvh ;
     background-image: url(../res/Group.png);
     -webkit-background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
 }
 
 main {
@@ -670,5 +669,15 @@ main {
 
     .home-data h3 {
         font-size: 1.3rem;
+    }
+    .home {
+    
+        min-height: 25dvh ;
+        background-image: url(../res/Group.png);
+        -webkit-background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+     
     }
 }
