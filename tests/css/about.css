@@ -116,9 +116,13 @@ button:hover {
     padding-bottom: 10px    ;
 }
 
-.year{
-    margin-left: 50rem;
+.year h2{
+    padding-left: 50rem;
     padding-top: 1rem;
+}
+.year h3 {
+    padding-left: 1rem;
+    padding-bottom: 2rem;
 }
 
 
