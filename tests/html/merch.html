@@ -52,125 +52,71 @@
                     <div class="nav-close" id="nav-close"><i class="bx bx-x"></i></div>
                 </ul>
             </div>
-
             <div class="nav-open" id="nav-open"><i class="bx bx-grid-alt"></i></div>
         </nav>
     </header>
 
-    <div class="main">
-        <h1>Shopping cart</h1>
-        <h2 class="sub-heading">Free shipping from $100!</h2>
-      
-        <section class="shopping-cart">
-          <ol class="ui-list shopping-cart--list" id="shopping-cart--list">
-      
-            <script id="shopping-cart--list-item-template" type="text/template">
-              <li class="_grid shopping-cart--list-item">
-                <div class="_column product-image">
-                  <img class="product-image--img" src="{{=img}}" alt="Item image" />
-                </div>
-                <div class="_column product-info">
-                  <h4 class="product-name">{{=name}}</h4>
-                  <p class="product-desc">{{=desc}}</p>
-                  <div class="price product-single-price">${{=price}}</div>
-                </div>
-                <div class="_column product-modifiers" data-product-price="{{=price}}">
-                  <div class="_grid">
-                    <button class="_btn _column product-subtract">&minus;</button>
-                    <div class="_column product-qty">0</div>
-                    <button class="_btn _column product-plus">&plus;</button>
-                  </div>
-                  <button class="_btn entypo-trash product-remove">Remove</button>
-                  <div class="price product-total-price">$0.00</div>
-                </div>
-              </li>
-            </script>
-      
-          </ol>
-      
-          <footer class="_grid cart-totals">
-            <div class="_column subtotal" id="subtotalCtr">
-              <div class="cart-totals-key">Subtotal</div>
-              <div class="cart-totals-value">$0.00</div>
-            </div>
-            <div class="_column shipping" id="shippingCtr">
-              <div class="cart-totals-key">Shipping</div>
-              <div class="cart-totals-value">$0.00</div>
-            </div>
-            <div class="_column taxes" id="taxesCtr">
-              <div class="cart-totals-key">Taxes (6%)</div>
-              <div class="cart-totals-value">$0.00</div>
-            </div>
-            <div class="_column total" id="totalCtr">
-              <div class="cart-totals-key">Total</div>
-              <div class="cart-totals-value">$0.00</div>
-            </div>
-            <div class="_column checkout">
-              <button class="_btn checkout-btn entypo-forward">Checkout</button>
-            </div>
-          </footer>
-      
-        </section>
+<!-- Main -->
+<div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="card" style="width: 20rem;">
+  <img class="card-img-top" src="http://www.azspagirls.com/files/2010/09/orange.jpg" alt="Card image cap">
+  <div class="card-block">
+    <h4 class="card-title">Orange</h4>
+    <p class="card-text">Price: $0.5</p>
+    <a href="#" data-name="Orange" data-price="0.5" class="add-to-cart btn btn-primary">Add to cart</a>
+  </div>
+</div>
       </div>
+      <div class="col">
+        <div class="card" style="width: 20rem;">
+  <img class="card-img-top" src="http://images.all-free-download.com/images/graphicthumb/vector_illustration_of_ripe_bananas_567893.jpg" alt="Card image cap">
+  <div class="card-block">
+    <h4 class="card-title">Banana</h4>
+    <p class="card-text">Price: $1.22</p>
+    <a href="#" data-name="Banana" data-price="1.22" class="add-to-cart btn btn-primary">Add to cart</a>
+  </div>
+</div>
+      </div>
+      <div class="col">
+        <div class="card" style="width: 20rem;">
+  <img class="card-img-top" src="https://3.imimg.com/data3/IC/JO/MY-9839190/organic-lemon-250x250.jpg" alt="Card image cap">
+  <div class="card-block">
+    <h4 class="card-title">Lemon</h4>
+    <p class="card-text">Price: $5</p>
+    <a href="#" data-name="Lemon" data-price="5" class="add-to-cart btn btn-primary">Add to cart</a>
+  </div>
+</div>
+      </div>
+    </div>
+</div>
 
-        <!-- 
-        <section class="about">
-            <h1 data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="100" data-aos-offset="0">About Us
-            </h1>
-            <div class="about-info">
-                <div class="about-img">
-                    <img src="../res/Group.png" alt="Stage Fright Group Photo" data-aos="fade-right"
-                        data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="500">
-                </div>
-                <div>
-                    <p data-aos="fade-left"> Stage Fright is a 2021 American rock band formed in Columbus, Ohio. Our
-                        band consists of Lead Vocalist Aidien Gooden, Lead Guitarist Sean Kalb, Drummer Jabari Hill, and
-                        Lead Bassist Gabe Zeigler. Our debut album, "Acantha," was released on September 16, 2021 by TR
-                        Records.
-                    </p>
-                    <a href="#member"><button data-aos="fade-up">Read More</button></a>
-                </div>
-            </div>
-        </section>
+  
+ <!-- Modal -->
+<div class="modal fade" id="cart" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Cart</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <table class="show-cart table">
+          
+        </table>
+        <div>Total price: $<span class="total-cart"></span></div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Order now</button>
+      </div>
+    </div>
+  </div>
+</div> 
 
-        <section class="section merch">
-            <h2 class="section-title">Merch</h2>
-            <div class="swiper mySwiper">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide" data-swiper-autoplay="2000">
-                        <a href="../html/hoodie.html"><img src="../res/boy_Hoodie.png" alt=""></a>
-                    </div>
-                    <div class="swiper-slide" data-swiper-autoplay="10000">
-                        <a href="../html/hoodietwo.html"><img src="../res/WhiteShirtMerch.png" alt=""></a>
-                    </div>
-                    <div class="swiper-slide" data-swiper-autoplay="10000">
-                        <a href="../html/hat.html"></a> <img src="../res/hatMerch.png" alt=""></a>
-                    </div>
-                    <div class="swiper-slide" data-swiper-autoplay="10000">
-                        <a href="../html/hoodie.html"><img src="../res/backAirpod.png" alt=""></a>
-                    </div>
-                    <div class="swiper-slide" data-swiper-autoplay="10000">
-                        <a href="../html/creatine.html"><img src="../res/Creatine.png" alt=""></a>
-                    </div>
-                    <div class="swiper-slide" data-swiper-autoplay="10000">
-                        <a href="../html/hoodie.html"><img src="../res/" alt=""></a>
-                    </div>
-                    <div class="swiper-slide" data-swiper-autoplay="10000">
-                        <a href="../html/hoodie.html"><img src="../res" alt=""></a>
-                    </div>
-                    <div class="swiper-slide" data-swiper-autoplay="10000">
-                        <a href="../html/hoodie.html"><img src="../res" alt=""></a>
-                    </div>
-
-                </div>
-                 Maybe comment the arrows out-->
-        <!-- <div class="swiper-button-next"><i class="fa-solid fa-circle-chevron-right"></i></div>
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-pagination"></div>
-            </div>
-        </section> -->
-    </main>
-    <footer>
         <!--FOOTER SECTION-->
         <div class="footer_container">
             <div class="footer_links"><!--links section-->
@@ -226,14 +172,15 @@
         </div>
         <!-- JS LINKS =============================== -->
         <script src="../js/cart.js"></script>
-       <!-- Font Awesome Js =============================== -->
-       <script src="https://kit.fontawesome.com/c4fc73ac8f.js" crossorigin="anonymous"></script>
-       <!-- AOS JS -->
-       <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
-       <script>
-           AOS.init();
-       </script>
-    </footer>
+        <!-- Font Awesome Js =============================== -->
+        <script src="https://kit.fontawesome.com/c4fc73ac8f.js" crossorigin="anonymous"></script>
+        <!-- AOS JS -->
+        <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+        </footer>
+    </body>
 </body>
 
 </html>
